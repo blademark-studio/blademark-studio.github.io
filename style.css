@@ -421,7 +421,7 @@ h2.logo-title a {
 }
 
 h2.logo-title a:hover {
-  color: #999;
+  cursor: pointer;
 }
 
 li.menu-item:last-child {
@@ -459,6 +459,10 @@ li.menu-item a {
   min-width: 100%;
   min-height: 100vh;
   z-index: 1;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .video-overlay {
