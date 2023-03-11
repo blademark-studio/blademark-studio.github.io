@@ -85,11 +85,14 @@ body {
   /* overflow-y: hidden;
   overflow-x: hidden;  */
   -ms-overflow-style: none;
-  
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 ::-webkit-scrollbar {
   width: 0 !important
   }
+  
 
 img {
   max-width: 100%;
@@ -124,7 +127,11 @@ p {
   background-color: #000000;
   color: #ffffff;
 }
-
+.ns {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 .column {
   display: inline-block;
   float: left;
@@ -267,6 +274,7 @@ a {
   min-height: 100vh;
   padding: 40px 0 0;
 }
+
 .content {
   background-color: #fff;
 }
@@ -914,7 +922,7 @@ h3.partner-name {
 
 .contact-block {
   background-color: #da0d2b;
-  padding: 155px 0 170px;
+  /* padding: 155px 0 170px; */
   text-align: center;
 }
 
@@ -2920,7 +2928,7 @@ span.launch-gallery-icon {
 
 .contact-block-2 {
   background-color: #ffffff;
-  padding: 71px 0 72px;
+  /* padding: 71px 0 72px; */
   text-align: left;
   display: flex;
 }
@@ -2939,14 +2947,14 @@ span.launch-gallery-icon {
 
 .contact-block-2 .detail-wrap {
   width: 25%;
-  align-self: center;
-  padding-top: 13px;
+  align-self: flex-start;
+  padding-top: 0;
   padding-left: 0;
 }
 
 .contact-img-wrap {
   width: 45%;
-  padding-left: 16px;
+  padding-left: 20px;
 }
 
 .contact-block-2 .detail-wrap h3.the-title {

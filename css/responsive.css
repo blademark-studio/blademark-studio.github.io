@@ -96,7 +96,7 @@
   }
 
   .contact-block-2 {
-    padding: 150px 0;
+    padding: 0 0;
   }
 
   .contact-block-2 .title-wrap {
@@ -526,7 +526,7 @@
 
   .contact-block-2 {
     display: block;
-    padding: 60px 0 115px;
+    padding: 0;
   }
 
   .contact-block-2 .title-wrap {
@@ -540,7 +540,7 @@
 
   .contact-block-2 .detail-wrap {
     width: 30%;
-    padding: 150px 15px 150px 15px;
+    padding:0px 15px 0px 15px;
   }
 
   .contact-block-2 h1.the-title {
@@ -592,7 +592,7 @@
 
   .contact-block,
   .contact-block.contact-block-3 {
-    padding: 100px 0 125px;
+    padding: 0;
   }
 
   .testimonial-block .container,
@@ -1023,7 +1023,7 @@
   }
 
   .contact-block-2 {
-    padding: 60px 0 131px;
+    padding: 0;
   }
 
   .card-text-wrap h3.the-title {
@@ -1373,7 +1373,7 @@
   }
 
   .contact-block {
-    padding: 100px 0 120px;
+    padding:  0;
   }
 
   .intro-block .intro-image-wrap {
@@ -1470,7 +1470,7 @@
   }
 
   .contact-block-2 {
-    padding: 50px 0;
+    padding: 0 0;
   }
 
   .contact-block-2 h1.the-title {
@@ -1479,12 +1479,14 @@
 
   .contact-img-wrap {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 30px;
   }
 
   .contact-block-2 .detail-wrap {
     width: 100%;
-    padding: 0 35px;
+    padding: 0 10px 50px 10px;
     position: unset;
     bottom: 0;
   }
