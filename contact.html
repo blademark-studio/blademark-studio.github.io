@@ -15,11 +15,17 @@
 </head>
 <style>
     .main-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .content {
+        display: flex;
+        margin-bottom: 40px;
+    }
 </style>
+
 <body>
     <div class="loader-wrapper">
         <!-- <span class="loader">
@@ -38,7 +44,7 @@
                                 ============================================ -->
                     <div class="logo">
                         <h2 class="logo-title">
-                           <a href="index.html">BLADEMARK</a>
+                            <a href="index.html">BLADEMARK</a>
                         </h2>
                     </div>
                     <!-- LOGO END -->
@@ -78,25 +84,27 @@
             <div class="left-bar"></div>
             <div class="right-bar"></div>
 
-            <div class="contact-block contact-block-2 clearfix">
-             
-                <div class="column column-40 contact-img-wrap">
-                    <img src="img/image-contact.png" alt="contact-img" class="contact-img">
-                </div>
-                <div class="column column-3 detail-wrap">
-                    <div class="address-detail">
-                        <h3 class="the-title">Aleksandar</h3>
-                        <p>
-                            I believe each visual has a story. Through graphic design, I can help you tell your story in the beautiful and eloquent way it deserves to be told. But I also believe design is not only about producing beautiful visuals, it’s about finding solutions to problems a customer may face.
+            <div class="designers clearfix">
+                <div class="contact-wrapper">
+                    <div class="d-detail">
+                        <h3 class="the-title d-title">Aleksandar</h3>
+                        <span class="d-subtitle">MOTION SENSEI</span>
+                        <p class="d-about">I believe each visual has a story. Through graphic design, I can help you tell your story in
+                            the beautiful and eloquent way it deserves to be told. But I also believe design is not only
+                            about producing beautiful visuals, it’s about finding solutions to problems a customer may
+                            face.
                         </p>
                     </div>
-                    <div class="address-detail">
-                        <h3 class="the-title">Andjela</h3>
-                        <p>
-                            I love every part of the creative process and all the unexpected places it can lead you. You can frequently find me sketching, drawing, or working with vector graphics. I love making loud, colorful, and messy designs based on emotions rather than strict formulas.
+                    <div class="d-detail">
+                        <h3 class="the-title d-title">Andjela</h3>
+                        <span class="d-subtitle">VECTOR NINJA</span>
+                        <p class="d-about">I love every part of the creative process and all the unexpected places it can lead you. You
+                            can frequently find me sketching, drawing, or working with vector graphics. I love making
+                            loud, colorful, and messy designs based on emotions rather than strict formulas.
                         </p>
                     </div>
-<br><hr><br>
+                    <br>
+                    <hr><br>
                     <div class="contact-detail">
                         <h3 class="the-title">Get In Touch</h3>
                         <p>
@@ -105,7 +113,9 @@
                             E: blademark@gmail.com
                         </p>
                     </div>
-                  
+                </div>
+                <div class="logo-animation">
+                    <img src="img/image-contact.png" alt="contact-img" class="contact-img">
                 </div>
             </div>
         </div>
@@ -114,6 +124,8 @@
         <footer id="footer">
             <div class="copyright">
                 <span class="copyright-text">BLADEMARK STUDIO 2023</span>
+                <span class="get-in-touch-text">GET IN TOUCH</span>
+
             </div>
         </footer>
         <!-- end Footer -->

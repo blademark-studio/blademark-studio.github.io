@@ -535,7 +535,7 @@
   }
 
   .contact-img-wrap {
-    width: 60%;
+    width: 100%;
   }
 
   .contact-block-2 .detail-wrap {
@@ -1479,9 +1479,7 @@
 
   .contact-img-wrap {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
+ 
   }
 
   .contact-block-2 .detail-wrap {
