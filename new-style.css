@@ -1,0 +1,64 @@
+#studio {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: #fff;
+    height: auto;
+    margin: 0 20px;
+}
+
+.about-studio {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    justify-content: center;
+    width: 100%;
+}
+.about-studio-h1 {
+    color: #fff;
+    font-size: 4vw;
+}
+.about-studio-p {
+    color: #fff;
+}
+
+.blademark-logo {
+    border-left: 1px solid #fff;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: crimson; */
+}
+.blademark-logo img {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(112, 33, 49); */
+
+}
+
+
+
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.designer {
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.d-header-w{
+
+}
+.d-header {
+
+}
+.d-content{
+    
+}
