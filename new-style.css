@@ -1,6 +1,6 @@
 #studio {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #000000;
     color: #fff;
     height: auto;
@@ -10,25 +10,29 @@
 .about-studio {
     display: flex;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 20px;
     justify-content: center;
     width: 100%;
+    background-color: #ededed;
+    border-top: 20px solid #fff;
 }
 .about-studio-h1 {
-    color: #fff;
-    font-size: 4vw;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 .about-studio-p {
-    color: #fff;
+    color: #000000;
+    margin: 0;
 }
 
 .blademark-logo {
-    border-left: 1px solid #fff;
-    padding: 80px;
+    /* border-left: 1px solid #fff; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: crimson; */
+    margin: 80px;
 }
 .blademark-logo img {
     width: 100%;
@@ -55,20 +59,24 @@
 }
 .d-header-w{
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 40px;
+flex-direction: column;
 }
 .d-header {
 
 }
-
+.d-header h1 {
+    font-size: 30px;
+    margin: 30px 20px 0px 20px;
+}
+.d-header span {
+    display: none;
+}
 .d-image {
-    width: 40%;
+    width: 100%;
 }
-.d-image img {
+/* .d-image img {
     border-radius: 100%;
-}
-.d-content{
-    
+} */
+.d-content p {
+    margin:20px;
 }
