@@ -54,10 +54,20 @@
     margin-top: 20px;
 }
 .d-header-w{
-
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 40px;
 }
 .d-header {
 
+}
+
+.d-image {
+    width: 40%;
+}
+.d-image img {
+    border-radius: 100%;
 }
 .d-content{
     
