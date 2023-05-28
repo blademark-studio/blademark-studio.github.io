@@ -418,12 +418,13 @@ h2.logo-title a {
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
-  transition: 0.4s;
+  /* transition: 0.4s; */
+  cursor: pointer;
 }
 
-h2.logo-title a:hover {
+/* h2.logo-title a:hover {
   color: #999;
-}
+} */
 
 li.menu-item:last-child {
   margin: 0;

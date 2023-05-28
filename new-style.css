@@ -145,6 +145,51 @@ flex-direction: column;
       font-weight: 700;
   }
 
+  #connect {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .contact {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .about-us {
+    background-color: #ededed;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .about-us p {
+    color: #000;
+  }
+
+  .contact h1 {
+    color: #fff;
+    margin-top: 20px;
+  }
+  .contact p {
+    color: #fff;
+  }
+  .connect-img {
+    margin-top: 20px;
+  }
+  .connect-img img {
+    width: 100%;
+  }
+
+
+.send-email {
+background-color: #000000;
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+padding: 20px;
+}
 
 #footer {
     background: #fff;
