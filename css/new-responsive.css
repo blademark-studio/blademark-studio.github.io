@@ -5,7 +5,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .s-projects {
+   
+    .m-projects {
         flex-direction: column;
     }
     .project {
@@ -30,7 +31,20 @@ body {
         padding: 5px 19px 5px;
     } */
 }
-
+@media (max-width: 1200px) { 
+    .s-projects {
+        flex-direction: column;
+    }
+    .project {
+        margin-right: 10px;
+    }
+    .project:nth-child(2) {
+        margin-right: 0;
+      }
+      .designer:first-child {
+        margin-right: 10px;
+    }
+}
 @media (max-width: 1480px) { 
     #studio {
         margin-top: 40px;
@@ -41,6 +55,7 @@ body {
     .header-style1-wrap {
         padding: 0 10px;
     }
+   
     /* .modal-content {
         padding: 0 20px;
     }

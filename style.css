@@ -455,6 +455,10 @@ li.menu-item a {
   display: flex;
   flex-direction: row;
 }
+.m-projects {
+  display: flex;
+  flex-direction: row;
+}
 
 .project {
   display: flex;
@@ -478,17 +482,15 @@ li.menu-item a {
   cursor: pointer;
 }
 
-.project:first-child {
-  /* margin-right: 10px; */
-}
 
-.project:nth-child(4) {
+
+/* .project:nth-child(4) {
   margin-right: 0;
-}
+} */
 
-.project:nth-child(3n) {
-  /* width: 1440px; */
-}
+.p4th {
+  margin-right: 0;
+ }
 
 .project-header {
   display: flex;
