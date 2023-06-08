@@ -435,10 +435,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
-  document.addEventListener("DOMContentLoaded", function() {
-    var images = document.getElementsByTagName("img");
+  function modalIsOpen() {
+    var modals = document.getElementsByClassName('modal');
+    for (var i = 0; i < modals.length; i++) {
+      if (modals[i].style.display === 'block') {
+        return true;
+      }
+    }
+    return false;
+  }
   
-    for (var i = 0; i < images.length; i++) {
-      images[i].setAttribute("draggable", "false");
+  function closeModal() {
+    var modals = document.getElementsByClassName('modal');
+    for (var i = 0; i < modals.length; i++) {
+      modals[i].style.display = 'none';
+    }
+  }
+
+  window.addEventListener('popstate', function(event) {
+    if (modalIsOpen()) {
+      closeModal();
+      event.preventDefault();
     }
   });
