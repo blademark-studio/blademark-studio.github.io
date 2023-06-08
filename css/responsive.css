@@ -773,9 +773,9 @@
   .sm.mobile-menu {
     display: none;
     position: fixed;
-    right: 20px;
+    right: 10px;
     background: #fff;
-    margin-top: 4px;
+    margin-top: 7px;
   }
 
   .left-bar,

@@ -523,6 +523,28 @@ hr {
   /* width: 1440px; */
 }
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-name {
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.close-project {
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
 
 /* Contact */
 
@@ -572,7 +594,7 @@ p.copyright-text {
 
 /* Modal */
 
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   top: 0;
@@ -635,7 +657,7 @@ p.copyright-text {
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
-}
+} */
 
 /* Margins */
 
