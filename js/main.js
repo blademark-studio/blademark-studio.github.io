@@ -35,18 +35,18 @@ $(document).ready(function () {
         var activation_offset = 0.2
         var activation_point = element_position - (screen_height * activation_offset)
         var max_scroll_height = $('body').height() - screen_height - 5
-        var initValue = widthScreen <= 1200 
-            ? $('#scroll-move').offset().top / 4 
+        var initValue = widthScreen <= 1200
+            ? $('#scroll-move').offset().top / 4
             : $('#scroll-move').offset().top / 2
         var y = widthScreen > 1440 ? '0' : initValue
-        widthScreen <=768 
+        widthScreen <= 768
             ? target1.style.transform = "translateY(0px)"
             : target1.style.transform = "translateY(" + y + "px)"
         if (widthScreen > 1024) {
             target2.style.transform = "translateY(" + height + "px)"
         }
         $(window).on('scroll', function () {
-            if(window.scrollY > 1) {
+            if (window.scrollY > 1) {
                 y = window.scrollY / 3
             }
             var yAxis = widthScreen <= 1024
@@ -76,13 +76,13 @@ $(document).ready(function () {
             var element_in_view = y_scroll_pos > activation_point
             var has_reached_bottom_of_page = max_scroll_height <= y_scroll_pos && !element_in_view
 
-            if(element_in_view || has_reached_bottom_of_page) {
-                var testiScrollY = widthScreen <= 768 
+            if (element_in_view || has_reached_bottom_of_page) {
+                var testiScrollY = widthScreen <= 768
                     ? (window.scrollY - $('.testimonial-block').height()) / 50
                     : (window.scrollY - $('.testimonial-block').height()) / 20
-                $('#scroll-move4').css({'transform': `translateY(${-testiScrollY}px)`})
+                $('#scroll-move4').css({ 'transform': `translateY(${-testiScrollY}px)` })
             } else {
-                $('#scroll-move4').css({'transform': `translateY(0px)`})
+                $('#scroll-move4').css({ 'transform': `translateY(0px)` })
             }
         })
     }
@@ -125,7 +125,7 @@ $(document).ready(function () {
             var i = index + 1
             document.getElementById(`project-item${i}`).style.transform = `translateY(${yAxis}px) 
             rotateX(var(--rotateX)) rotateY(var(--rotateY))`
-            if(widthScreen <= 767) {
+            if (widthScreen <= 767) {
                 document.getElementById(`project-item${i}`).style.transform = `translateY(0px) 
                 rotateX(var(--rotateX)) rotateY(var(--rotateY))`
             }
@@ -133,17 +133,19 @@ $(document).ready(function () {
     })
 
     //profesional studio page js
-    if($('.intro-block').length > 0) {
-        if(widthScreen > 1024) {
+    if ($('.intro-block').length > 0) {
+        if (widthScreen > 1024) {
             var yInitValue = widthScreen <= 1440 ? $('.intro-image-wrap').offset().top / 5 : 0
-            $('.intro-image-wrap').css({'transform': `translateY(${yInitValue}px)`})
+            $('.intro-image-wrap').css({ 'transform': `translateY(${yInitValue}px)` })
         }
         $(window).on('scroll', function () {
-            var scrollTop = widthScreen <= 1200 
+            var scrollTop = widthScreen <= 1200
                 ? window.scrollY / 7 : window.scrollY / 5
-    
-            $('.intro-image-wrap').css({ 'transform': `translateY(${-scrollTop}px)`, 
-            'transition-duration': '0s' })
+
+            $('.intro-image-wrap').css({
+                'transform': `translateY(${-scrollTop}px)`,
+                'transition-duration': '0s'
+            })
         })
     }
 
@@ -364,3 +366,72 @@ $(document).ready(function () {
         GalleryGridWrap.masonry('bindResize')
     })
 })
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var modalLinks = document.getElementsByClassName('modal-link');
+    var overlay = document.createElement('div');
+    overlay.className = 'overlay';
+    document.body.appendChild(overlay);
+
+    for (var i = 0; i < modalLinks.length; i++) {
+        modalLinks[i].addEventListener('click', function (e) {
+            e.preventDefault();
+            var modalId = this.getAttribute('data-modal');
+            var modal = document.getElementById(modalId);
+            overlay.style.display = 'block';
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent scrolling of background content
+        });
+    }
+
+    function closeModal() {
+        overlay.style.display = 'none';
+        var modals = document.getElementsByClassName('modal');
+        for (var i = 0; i < modals.length; i++) {
+            modals[i].style.display = 'none';
+        }
+        document.body.style.overflow = ''; // Restore scrolling of background content
+    }
+
+    overlay.addEventListener('click', closeModal);
+
+    var modalContents = document.getElementsByClassName('modal-content');
+    for (var i = 0; i < modalContents.length; i++) {
+        modalContents[i].addEventListener('click', function (e) {
+            e.stopPropagation(); // Prevent click event from propagating to overlay
+        });
+    }
+
+    var closeButtons = document.getElementsByClassName('modal-close');
+    for (var i = 0; i < closeButtons.length; i++) {
+        closeButtons[i].addEventListener('click', function () {
+            closeModal();
+        });
+    }
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var navLinks = document.querySelectorAll('.menu-link');
+  
+    // Add click event listener to each navigation link
+    navLinks.forEach(function(link) {
+      link.addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default link behavior
+  
+        var targetId = this.getAttribute("href"); // Get the target section ID
+        var targetElement = document.querySelector(targetId); // Find the target section element
+  
+        if (targetElement) {
+          var offset = targetElement.offsetTop - 80; // Calculate the offset from the top
+  
+          window.scrollTo({
+            top: offset,
+            behavior: "smooth" // Use smooth scrolling
+          });
+        }
+      });
+    });
+  });
+  

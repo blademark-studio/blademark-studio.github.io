@@ -1,279 +1,267 @@
-body {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+::-webkit-scrollbar {
+    width: 0 !important
 }
 
-img {
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
-  }
-
-#studio {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    margin: 0 20px;
-}
-
-.about-studio {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    justify-content: center;
-    width: 100%;
-    background-color: #ededed;
-    margin-top: 20px;
-}
-.about-studio-h1 {
-  display: none;
-}
-.about-studio-p {
-    color: #000000;
-    margin: 0;
-}
-
-.blademark-logo {
-    /* border-left: 1px solid #fff; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: crimson; */
-    padding: 80px;
-    background-color: #000;
-}
-.blademark-logo img {
-    width: 100%;
-    height: 100%;
-    /* background-color: rgb(112, 33, 49); */
-
-}
-.case-btn {
-  display: none;
-}
-
-
-
-
-
-#about {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-}
-
-.designer {
-    background-color: #EDEDED;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-.d-header-w{
-display: flex;
-flex-direction: column;
-}
-.d-header {
-
-}
-.d-header h1 {
-    font-size: 30px;
-    margin: 30px 20px 0px 20px;
-}
-.d-header span {
-    display: none;
-}
-.d-image {
-    width: 100%;
-}
-.d-image img {
-    width: 100%;
-}
-.d-content p {
-    margin:20px;
-}
-
-
-
-
-#work {
-    margin: 0 20px;
-}
-/* Swiper */
-
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.main-wrapper {
+    max-width: 1440px;
     margin: 0 auto;
-    transition: ease-in 1s;
-  }
-  .marks {
-    margin: 0 20px;
-    margin-top: 50px;
-  }
-  
-  .mt-5 {
-    margin-top: 5px;
-  }
-  .mt-1 {
-    margin-top: 1px;
-  }
-  .mark-item {
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    border-right: 1px solid #272727;
-  }
-.mark-swiper:not(:last-child){
-  border-bottom: 1px solid #272727;
 }
 
-  .portfolio-title-wrapper {
+.section-header {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    height: 20px;
     display: flex;
     flex-direction: row;
-    height: 40px;
     justify-content: space-between;
-      align-items: flex-end;
-      margin-bottom: 2px;
-  }
-  
-  .portfolio-title {
-    display: flex;
-    background-color: transparent;
-    color: #000000;
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      margin-bottom: 2px;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
 
-  }
-.portfolio-right {
-  display: flex;
-  background-color: transparent;
-  color: #000000;
+.section-header p {
+    color: #000000;
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: normal;
+    margin: 10px 0;
 }
-  #connect {
+
+#header {
+    /* max-width: 1440px; */
+}
+
+#studio p {
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.video-bg {
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+}
+
+
+/* connect */
+
+#connect {
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    justify-content: center;
-  }
-
-  .contact {
-    background-color: #000000;
-    padding: 20px;
-  }
-  
-  .about-us {
-    background-color: #ededed;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  .about-us p {
-    color: #000;
-  }
-
-  .contact h1 {
-    color: #fff;
-    margin-top: 20px;
-  }
-  .contact p {
-    color: #fff;
-  }
-  .connect-img {
-    margin-top: 20px;
-  }
-  .connect-img img {
-    width: 100%;
-  }
-
-
-.send-email {
-background-color: #000000;
-color: #fff;
-font-size: 40px;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-padding: 20px;
+    margin-top: 80px;
 }
 
+.designers-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.designer {
+    display: flex;
+    flex-direction: column;
+}
+
+.designer:first-child {
+    margin-right: 20px;
+}
+
+.designer img {
+    width: 100%;
+    height: 100%;
+    max-width: 715px;
+    max-height: 715px;
+
+}
+
+.designer p {
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.designer-name {
+    color: #000000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px 0 20px 0;
+    margin-top: 15px !important;
+}
+
+hr {
+    width: 100%;
+}
+
+
+/* projects */
+
+#projects {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.s-projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.project p {
+    color: #000000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px 0 20px 0;
+}
+
+.project a {
+    cursor: pointer;
+}
+
+.project:first-child {
+    /* margin-right: 10px; */
+}
+
+.project:nth-child(4) {
+    margin-right: 0;
+}
+
+.project:nth-child(3n) {
+    /* width: 1440px; */
+}
+
+
+/* contact */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#contact p {
+    line-height: normal;
+    margin: 10px 0;
+}
+
+/* footer */
+
 #footer {
-    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    max-width: 1440px;
+    height: 60px;
+    background: #fff;
+    margin-top: 80px;
+    border-top: 1px solid #000;
+}
+
+p.madeby-text {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+p.copyright-text {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* margins */
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+
+.modal-content {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 20px 0 40px 0;
+    overflow-y: auto;
+    max-width: 1440px;
+    border-top: 1px solid black;
+}
+
+.modal-header {
+    position: sticky;
+    top: 0;
+    background: #fff;
     height: 40px;
-    padding: 0 20px;
-  }
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
 
-  @media (min-width: 768px) {
-    #studio {
-      flex-direction: row-reverse;
-      background-color: #272727;
-    }
-    .about-studio {
-      display: flex;
-      flex-direction: column;
-      padding: 40px;
-      justify-content: center;
-      width: 100%;
-      background-color: #000000;
-      margin-top: 0;
-      margin-right: 1px;
-  }
-  .about-studio {
-    justify-content: center;
-  }
-  .about-studio p{
-color: #fff;
-  }
-  .blademark-logo {
-    padding: 20px;
-  }
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9998;
+}
 
-  }
+.modal-header a {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #121212;
+}
 
-  @media (min-width: 992px) {
-    .about-studio-h1 {
-      display: block;
-        color: #fff;
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
-    .about-studio {
-      justify-content: space-evenly;
-      padding: 40px 60px;
-    }
-    .about-studio h1 {
-      font-size: 4vw;
-    } 
-    .blademark-logo {
-      padding: 40px;
-    }
-  }
+.modal-close {
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}

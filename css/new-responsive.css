@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .s-projects {
+        flex-direction: column;
+    }
+    .project {
+        margin-right: 0;
+    }
+    #designers {
+        flex-direction: column;
+    }
+    .designers-wrapper {
+        flex-direction: column;
+    }
+    .designer:first-child {
+        margin-right: 0;
+    }
+    .madeby {
+        text-align: center;
+        padding: 5px 19px 5px;
+    }
+
+    .copyright {
+        text-align: center;
+        padding: 5px 19px 5px;
+    }
+}
+
+@media (max-width: 1480px) { 
+    .main-wrapper {
+        padding: 0 20px;
+    }
+    .header-style1-wrap {
+        margin: 0 20px;
+    }
+    .modal-content {
+        padding: 0 20px;
+    }
+    .modal-header {
+        padding: 0 20px;
+    }
+}
