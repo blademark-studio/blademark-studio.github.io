@@ -17,6 +17,13 @@
     .designer:first-child {
         margin-right: 0;
     }
+    .project-square {
+        flex-direction: column;
+    }
+    .project-square div:first-child {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 1200px) {

@@ -64,6 +64,10 @@ hr {
   margin-right: 10px;
 }
 
+.mt10 {
+  margin-top: 10px;
+}
+
 .column {
   display: inline-block;
   float: left;
@@ -697,3 +701,27 @@ p.copyright-text {
   color: #000;
 } */
 
+/* Projects */
+
+#project-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project-wide:not(:first-child) {
+margin-top: 10px;
+}
+
+.project-square {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+}
+.project-square img {
+  width: 100%;
+}
+.project-square div:first-child {
+  margin-right: 10px;
+}
