@@ -707,6 +707,7 @@ p.copyright-text {
   display: flex;
   flex-direction: column;
   width: 100%;
+  border: 1px solid red;
 }
 
 .project-wide:not(:first-child) {
@@ -724,4 +725,57 @@ margin-top: 10px;
 }
 .project-square div:first-child {
   margin-right: 10px;
+}
+
+/* Logofolio */
+.marks {
+  margin-bottom: 10px;
+}
+.mark {
+  margin-bottom: 10px;
+}
+
+.full-mark-wrapper {
+  background: #000;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.full-mark-img {
+  width: 240px;
+  height: auto;
+}
+#mark-swipers {
+  margin-bottom: 10px;
+  background: #1F1F1F;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2px;
+  background: #1F1F1F;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }

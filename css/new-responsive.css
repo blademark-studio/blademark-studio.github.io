@@ -46,6 +46,9 @@
     .header-style1-wrap {
         padding: 0 10px;
     }
+    .project-content {
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 769px) {

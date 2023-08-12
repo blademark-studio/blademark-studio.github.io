@@ -181,47 +181,9 @@ $(document).ready(function () {
     }
     init()
 
-    //landing slider page
-    var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        effect: "fade",
-        loop: true,
-        autoplay: {
-            delay: 5000,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
 
-    //gallery adora
-    var swiper = new Swiper(".adora-swiper", {
-        spaceBetween: 20,
-        loop: true,
-        centeredSlides: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        allowTouchMove: true,
-        breakpoints: {
-            641: {
-                slidesPerView: 2
-            },
-            1024: {
-                slidesPerView: 2,
-                spaceBetween: 30,
-            },
-            1200: {
-                slidesPerView: 3
-            }
-        }
-    });
+
+
 
     var state = false
     $('.adora-button').on('click', function () {
@@ -304,40 +266,7 @@ $(document).ready(function () {
     !carouselWrap.hasClass('gallery-carousel-block') ? space : space = 5
     !carouselWrap.hasClass('gallery-carousel-two') ? perView : perView = "auto"
 
-    var swiper = new Swiper(".carousel-album", {
-        spaceBetween: space,
-        mousewheel: true,
-        loop: loop,
-        navigation: {
-            nextEl: ".next-prev-btn",
-            prevEl: ".slide-prev-btn",
-        },
-        scrollbar: {
-            el: ".swiper-scrollbar"
-        },
-        allowTouchMove: true,
-        calculateHeight: true,
-        breakpoints: {
-            640: {
-                slidesPerView: 2
-            },
-            1024: {
-                slidesPerView: 2
-            },
-            1200: {
-                slidesPerView: perView
-            }
-        }
-    });
-
-    if (carouselWrap.hasClass('gallery-carousel-block')) {
-        $('.launch-gallery-icon').on('click', function () {
-            $('.swiper-wrapper').lightGallery({
-                thumbnail: false
-            })
-        })
-    }
-
+ 
     //gallery animate
     var animatePage = $('.animate-scroll-block')
 
