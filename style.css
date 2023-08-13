@@ -748,6 +748,10 @@ margin-top: 10px;
   width: 240px;
   height: auto;
 }
+.full-wordmark-img {
+  width: 100%;
+  height: auto;
+}
 #mark-swipers {
   margin-bottom: 10px;
   background: #1F1F1F;

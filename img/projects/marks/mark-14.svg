@@ -1,9 +1,7 @@
 <svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1080" height="1080" fill="black"/>
-<path d="M308.923 771.354V309.018H588.37V500.956H495.5V411.957H402.319V771.354H308.923Z" fill="white"/>
-<path d="M495.554 771.269V591.769H588.478V679.599H681.831V308.922H771.077V771.269H495.554Z" fill="white"/>
-<rect x="296.398" y="291" width="487.203" height="5.39837" fill="white"/>
-<rect x="296.398" y="783.602" width="487.203" height="5.39837" fill="white"/>
-<rect x="291" y="789" width="498" height="5.3984" transform="rotate(-90 291 789)" fill="white"/>
-<rect x="783.602" y="789" width="498" height="5.3984" transform="rotate(-90 783.602 789)" fill="white"/>
+<rect x="450.623" y="384.335" width="186.143" height="186.143" transform="rotate(45 450.623 384.335)" fill="white"/>
+<rect x="558.987" y="559.304" width="100.921" height="115.872" transform="rotate(45 558.987 559.304)" fill="white"/>
+<rect x="681.624" y="436.667" width="100.921" height="159.231" transform="rotate(45 681.624 436.667)" fill="white"/>
+<rect x="552.644" y="466.269" width="112.134" height="171.192" transform="rotate(-45 552.644 466.269)" fill="white"/>
 </svg>
