@@ -445,6 +445,57 @@ li.menu-item a {
   max-width: 1440px;
 }
 
+.services-swiper {
+  background-color: #fff !important;
+  margin-top: 50px;
+}
+.service-slide {
+  background-color: #e2e2e2 !important;
+  text-align: left !important;
+  display: flex;
+ align-items: flex-start !important;
+}
+.service-slide h4 {
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding: 15px 20px;
+  background: #000;
+}
+
+.service-slide p {
+  color: #000000;
+  font-size: 1.4rem;
+  line-height: normal;
+  margin: 5px 0 20px 0;
+  text-align: left;
+  padding-left: 20px;
+}
+.service-details {
+  font-size: 1.4rem;
+  text-align: left !important;
+  line-height: normal;
+  color: #fff;
+  padding: 20px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.tag {
+  color: #313131;
+  background-color: #d4d4d4;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 /* Projects */
 
 #projects {
