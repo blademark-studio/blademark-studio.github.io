@@ -28,6 +28,10 @@
         height: 100%;
         min-height: 355px;
       }
+      .full-wordmark-wrapper {
+        height: 100%;
+        min-height: 320px;
+      }
 }
 
 @media (max-width: 1200px) {
