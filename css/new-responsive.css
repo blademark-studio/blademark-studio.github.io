@@ -65,13 +65,13 @@
         flex-direction: row;
     }
 
-    /* .project:nth-child(odd) {
-        margin-right: 20px;
-    } */
-    .project {
+    .project:nth-child(odd) {
         margin-right: 20px;
     }
-    .project:nth-child(3) {
+    /* .project {
+        margin-right: 20px;
+    }
+    .project:nth-child(4) {
         margin-right: 0px;
-    }
+    } */
 }
