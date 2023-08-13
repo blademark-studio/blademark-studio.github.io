@@ -743,7 +743,14 @@ margin-top: 10px;
   align-items: center;
   margin-bottom: 10px;
 }
-
+.full-wordmark-wrapper {
+  background: #000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 .full-mark-img {
   width: 240px;
   height: auto;
