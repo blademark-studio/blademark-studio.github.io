@@ -64,33 +64,36 @@
                 couple
                 specialized in crafting unique brands & engaging digital experiences for startaps with taste.</p>
             <div class="swiper services-swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper services-swiper-wrapper">
                     <div class="swiper-slide service-slide">
-                        <h4>LOGO & BRAND IDENTITY</h4>
+                        <h4>LOGO DESIGN</h4>
                         <p class="service-details">We design unique brands & create their identities with different
                             aproach and everything will be fine.</p>
                         <div class="tags">
                             <a class="tag">MONOGRAM</a>
-                            <a class="tag">TYPOGRAPHY</a>
-                            <a class="tag">COLORS</a>
-                            <a class="tag">MARK</a>
                             <a class="tag">WORDMARK</a>
+                            <a class="tag">EMBLEM</a>
+                            <a class="tag">MASCOT</a>
+                            <a class="tag">ABSTRACT</a>
+                            <a class="tag">LOGO USAGE</a>
                         </div>
                     </div>
                     <div class="swiper-slide service-slide">
-                        <h4>WEB DESIGN & DEVELOPMENT</h4>
+                        <h4>BRAND IDENTITY</h4>
                         <p class="service-details">We design unique brands & create their identities with different
                             aproach and everything will be fine.</p>
                         <div class="tags">
-                            <a class="tag">UX & UI</a>
-                            <a class="tag">HTML & CSS</a>
-                            <a class="tag">JAVASCRIPT</a>
-                            <a class="tag">WEBFLOW</a>
-                            <a class="tag">FIGMA</a>
+                            <a class="tag">TYPOGRAPHY</a>
+                            <a class="tag">BUSINESS CARD</a>
+                            <a class="tag">STYLE</a>
+                            <a class="tag">COLOR PALETTE</a>
+                            <a class="tag">PATTERNS</a>
+                            <a class="tag">GUIDELINES</a>
+
                         </div>
                     </div>
                     <div class="swiper-slide service-slide">
-                        <h4>CLOTHING & MERCH DESIGN</h4>
+                        <h4>MERCH DESIGN</h4>
                         <p class="service-details">We design unique brands & create their identities with different
                             aproach and everything will be fine.</p>
                         <div class="tags">
@@ -99,21 +102,55 @@
                             <a class="tag">SOCKS</a>
                             <a class="tag">STICKER</a>
                             <a class="tag">BACKPACK</a>
+                            <a class="tag">BEANIE</a>
+                            <a class="tag">SUBLIMATION</a>
                         </div>
                     </div>
                     <div class="swiper-slide service-slide">
-                        <h4>MOTION GRAPHICS & ANIMATION</h4>
+                        <h4>MOTION GRAPHICS</h4>
                         <p class="service-details">We design unique brands & create their identities with different
                             aproach and everything will be fine.</p>
                         <div class="tags">
-                            <a class="tag">STORYTELLING</a>
-                            <a class="tag">2D</a>
                             <a class="tag">LOGO ANIMATION</a>
-                            <a class="tag">INTERFACE ANIMATION</a>
+                            <a class="tag">UI ANIMATION</a>
+                            <a class="tag">VFX</a>
+                            <a class="tag">LOTTIE & WEB</a>
+                            <a class="tag">UGC VIDEO</a>
+                            <a class="tag">EXPLAINERS</a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide service-slide">
+                        <h4>WEB DESIGN</h4>
+                        <p class="service-details">We design unique brands & create their identities with different
+                            aproach and everything will be fine.</p>
+                        <div class="tags">
+                            <a class="tag">USER EXPERIENCE</a>
+                            <a class="tag">USER INTERFACE</a>
+                            <a class="tag">FIGMA</a>
+                            <a class="tag">LANDING PAGE</a>
+                            <a class="tag">COPYWRITING</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide service-slide">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p class="service-details">We design unique brands & create their identities with different
+                            aproach and everything will be fine.</p>
+                        <div class="tags">
+                            <a class="tag">HTML</a>
+                            <a class="tag">CSS</a>
+                            <a class="tag">JAVASCRIPT</a>
+                            <a class="tag">REACT</a>
+                            <a class="tag">BOOTSTRAP</a>
+                            <a class="tag">WEBFLOW</a>
+                            <a class="tag">WORDPRESS</a>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
+
             </div>
+
         </section>
 
 
@@ -127,8 +164,8 @@
                         <a href="marks.html"><img src="img/projects/thumbnails/project-01.png"></a>
                         <p>MARKS & SYMBOLS</p>
                     </div>
-                 
-                  
+
+
                     <div class="project" data-aos="fade-up" data-aos-delay="200" data-aos-duration="300">
                         <a href="blademark.html"><img src="img/projects/thumbnails/project-02.png"></a>
                         <p>BLADEMARK - BRAND CREATION</p>
@@ -140,8 +177,8 @@
                         <a href="merch.html"><img src="img/projects/thumbnails/project-03.png"></a>
                         <p>CLOTHING & MERCH DESIGN</p>
                     </div>
-                  
-                  
+
+
 
                     <div class="project" data-aos="fade-up" data-aos-delay="400" data-aos-duration="300">
                         <a href="typography.html"><img src="img/projects/thumbnails/project-04.png"></a>
@@ -298,16 +335,20 @@
 
     <script>
         var swiper = new Swiper(".services-swiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
             // loop: true,
             // autoplay: {
             //     delay: 2500,
             //     disableOnInteraction: false,
             // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
             breakpoints: {
                 640: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 20,
                 },
                 768: {
