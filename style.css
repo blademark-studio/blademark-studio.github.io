@@ -450,7 +450,6 @@ li.menu-item a {
 
 .services-swiper-wrapper {
   padding-bottom: 30px;
-
 }
 
 .service-slide {
@@ -638,7 +637,30 @@ li.menu-item a {
   margin: 5px 0 20px 0;
   margin-top: 15px !important;
 }
+.chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.chat-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
 
+.chat-option {
+  color: #313131;
+  background-color: #d4d4d4;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
 /* Connect */
 
 #connect {
@@ -803,22 +825,45 @@ p.copyright-text {
   margin-bottom: 10px;
 }
 
-.full-wordmark-wrapper {
-  background: #000;
-  height: 720px;
+.logofolio {
+  background: #fff;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .full-mark-img {
   width: 240px;
   height: auto;
 }
-
-.full-wordmark-img {
-  width: 70%;
+.logofolio-project {
+  margin-bottom: 10px;
+}
+.logofolio-project-details {
+  height: 20px;
+  /* background: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.logofolio-project-name {
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+ 
+}
+.logofolio-about-project {
+  line-height: normal;
+}
+.full-logofolio-img {
+  width: 100%;
   height: auto;
 }
 
