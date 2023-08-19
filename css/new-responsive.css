@@ -34,12 +34,12 @@
       }
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
 
     .designer:first-child {
         margin-right: 10px;
     }
-}
+} */
 
 @media (max-width: 1480px) {
 
