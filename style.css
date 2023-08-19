@@ -711,7 +711,7 @@ li.menu-item a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .chat-buttons {
@@ -728,7 +728,7 @@ li.menu-item a {
   font-weight: 700;
   line-height: normal;
   padding: 5px 10px;
-  margin-right: 5px;
+  margin-left: 10px;
   font-size: 1.2rem;
 }
 
