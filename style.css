@@ -813,7 +813,9 @@ p.copyright-text {
 .mark {
   margin-bottom: 10px;
 }
-
+.mark-swiper {
+margin-bottom: 2px;
+}
 .full-mark-wrapper {
   background: #000;
   /* height: 720px; */
@@ -870,10 +872,20 @@ p.copyright-text {
   line-height: normal;
 }
 
+/* .logofolio-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
 .full-logofolio-img {
+max-height: 720px;
+}
+
+/* .full-logofolio-img {
   width: 100%;
   height: auto;
-}
+} */
 
 #mark-swipers {
   margin-bottom: 10px;
@@ -883,7 +895,7 @@ p.copyright-text {
 .swiper {
   width: 100%;
   height: 100%;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   background: #1F1F1F;
 }
 
