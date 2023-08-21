@@ -387,7 +387,7 @@ li.menu-item a {
   margin-top: 0;
 }
 
-#studio p {
+.studio-about {
   line-height: normal;
   margin: 10px 0;
 }
@@ -436,9 +436,9 @@ li.menu-item a {
   color: #000000;
   font-size: 1.5rem;
   line-height: normal;
-  margin: 5px 0 20px 0;
+  /* margin: 5px 0 20px 0; */
   text-align: left;
-  padding-left: 20px;
+  margin: 0;
 }
 
 .service-details {
@@ -446,7 +446,7 @@ li.menu-item a {
   text-align: left !important;
   line-height: normal;
   color: #fff;
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 .tags {
