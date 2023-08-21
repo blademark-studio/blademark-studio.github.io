@@ -743,6 +743,26 @@
     margin-bottom: 30px;
   }
 }
+@media (min-width: 769px) {
+.main-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#main-menu {
+  /* display: flex;
+  align-items: center;
+  height: 100%; */
+}
+.menu-item {
+  /* height: 100%;
+    display: flex !important;
+    align-items: center; */
+}
+.menu-link {
+  padding: 0 !important;
+}
+}
 
 @media (max-width: 768px) {
   .column {
@@ -755,8 +775,14 @@
     margin-right: 0;
   }
 
+  .menu-link {
+    height: 40px;
+  }
+
   #main-menu {
     display: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   #main-menu.active {
@@ -767,7 +793,20 @@
     display: block;
     width: 100%;
     border: none;
-    padding: 1px 0;
+    /* padding: 1px 0; */
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  #header .jepret-menu-mobile i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: #fff;
   }
 
   .sm.mobile-menu {
@@ -775,7 +814,8 @@
     position: fixed;
     right: 10px;
     background: #fff;
-    margin-top: 7px;
+    /* margin-top: 7px; */
+    margin-top: 10px;
   }
 
   .left-bar,

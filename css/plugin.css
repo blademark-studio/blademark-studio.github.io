@@ -587,23 +587,23 @@
   }
 }
 
-.main-nav {
+/* .main-nav {
   background: none;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-}
+} */
 
 @media (min-width: 769px) {
-  .main-nav {
+  /* .main-nav {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     border-radius: 50px;
-  }
+  } */
 }
 
 .main-nav:after {

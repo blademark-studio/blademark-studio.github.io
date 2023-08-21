@@ -279,7 +279,6 @@ hr {
   /* padding: 2px 19px 0; */
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
   height: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -287,9 +286,17 @@ hr {
 
 /* header > logo */
 
+.logo {
+  height: 100%;
+}
+
 h2.logo-title {
-  margin: 4px 0 0;
+  /* margin: 4px 0 0; */
+  margin: 0;
   font-size: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 h2.logo-title a {
@@ -297,6 +304,9 @@ h2.logo-title a {
   color: #000;
   text-decoration: none;
   transition: 0.4s;
+  height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 h2.logo-title a:hover {
@@ -305,15 +315,19 @@ h2.logo-title a:hover {
 
 /* header > nav */
 
+.main-nav {
+  /* background-color: red; */
+}
+
 #header .jepret-menu-mobile {
   display: none;
   position: relative;
   font-size: 2rem;
-  margin: 7px 0 0;
+  /* margin: 7px 0 0; */
+  margin: 0;
   width: 0;
   height: 100%;
   cursor: pointer;
-  background-color: #fff;
 }
 
 .jepret-menu-mobile .icon {
@@ -722,14 +736,24 @@ li.menu-item a {
 }
 
 .chat-option {
-  color: #313131;
-  background-color: #d4d4d4;
+  
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
-  padding: 5px 10px;
-  margin-left: 10px;
   font-size: 1.2rem;
+}
+
+.links-txt {
+  background-color: #E2E2E2;
+  color: #313131;
+  padding: 5px 10px;
+}
+
+.links-ico {
+  background-color: #E2E2E2;
+  color: #313131;
+  padding: 5px 10px;
+
 }
 
 /* connect */
