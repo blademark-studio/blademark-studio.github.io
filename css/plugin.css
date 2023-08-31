@@ -286,7 +286,7 @@
 .sm-clean ul a:active {
   font-size: 13px;
   /* border-left: 8px solid transparent; */
-  color: #000;
+  color: #fff;
 }
 .sm-clean ul ul a,
 .sm-clean ul ul a:hover,
@@ -360,7 +360,7 @@
   .sm-clean a:active,
   .sm-clean a.highlighted {
     padding: 10px 0px 10px 0px;
-    color: #000;
+    color: #fff;
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
     -ms-border-radius: 0 !important;
@@ -986,7 +986,7 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
+  background: #000000bb;
   opacity: 0.2;
 }
 button.swiper-pagination-bullet {

@@ -12,6 +12,7 @@ body {
   word-wrap: break-word;
   -ms-word-wrap: break-word;
   font-family: "Poppins", Sans-serif;
+  background-color: #f8f8f8;
 }
 
 a {
@@ -104,6 +105,9 @@ hr {
   padding: 40px 0 0;
   max-width: 1440px;
   margin: 0 auto;
+  border-right: 1px solid #0000001f;
+    border-left: 1px solid #0000001f;
+    /* box-shadow: 0 144px 31px 10px #00000034; */
 }
 
 .button {
@@ -259,6 +263,22 @@ hr {
   margin-left: 10px;
 }
 
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons a {
+  display: inline-block;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
 :root {
   --swiper-theme-color: #272727 !important;
 }
@@ -271,8 +291,10 @@ hr {
   left: 0;
   z-index: 50;
   width: 100%;
-  background: #fff;
+  background: #f8f8f8;
   height: 40px;
+  border-right: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
 .header-style1-wrap {
@@ -282,6 +304,8 @@ hr {
   height: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  background-color: #000;
+  /* border-bottom: 20px solid #fff; */
 }
 
 /* header > logo */
@@ -301,7 +325,7 @@ h2.logo-title {
 
 h2.logo-title a {
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition: 0.4s;
   height: 15px;
@@ -310,13 +334,30 @@ h2.logo-title a {
 }
 
 h2.logo-title a:hover {
-  color: #999;
+  color: #fff;
 }
 
 /* header > nav */
 
 .main-nav {
   /* background-color: red; */
+}
+.spacew {
+  height: 20px;
+  display: flex;
+  width: 100%;
+  color: #fff;
+    background: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-right: 1px solid #0000001f;
+    border-left: 1px solid #0000001f;
+}
+.hcl {
+  margin-left: 15px;
+}
+.hcr {
+  margin-right: 15px;
 }
 
 #header .jepret-menu-mobile {
@@ -343,7 +384,7 @@ li.menu-item:last-child {
 }
 
 li.menu-item a {
-  color: #000000;
+  color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -362,14 +403,20 @@ li.menu-item a {
 .section-title {
   background-color: #fff;
   color: #000;
-  width: 100%;
   height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #0000001f;
+  margin: 0 20px;
   margin-bottom: 20px;
+}
+
+
+
+.zzz {
+  margin: 0 0 20px 0 !important;
 }
 
 .section-title p {
@@ -385,6 +432,7 @@ li.menu-item a {
 
 #studio {
   margin-top: 0;
+  margin: 0 20px;
 }
 
 .studio-about {
@@ -396,6 +444,10 @@ li.menu-item a {
   width: 100%;
   height: auto;
   max-width: 1440px;
+}
+.connect-video {
+  width: 100%;
+  height: 300px;
 }
 
 /* studio > services */
@@ -472,7 +524,9 @@ li.menu-item a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px solid red;
+  max-width: 1440px;
+  padding: 0 20px;
+  margin-top: 20px;
 }
 
 
@@ -510,6 +564,7 @@ li.menu-item a {
 .s-projects {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
 }
 
 .m-projects {
@@ -524,9 +579,11 @@ li.menu-item a {
   flex-grow: 1;
   flex-direction: column;
   /* margin-right: 20px; */
+  margin-bottom: 20px;
 }
 
 .project p {
+  display: none;
   color: #000000;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -554,20 +611,22 @@ li.menu-item a {
 }
 
 .project-name {
-  color: #000000;
+  color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
   line-height: normal;
+  margin-left: 15px;
 }
 
 .close-project {
-  color: #000000;
+  color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
   line-height: normal;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 .project-info {
@@ -588,6 +647,91 @@ li.menu-item a {
   margin-left: 8px;
 }
 
+.project-section-title {
+  background-color: #fff;
+  color: #000;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0000001f;
+  margin: 20px 0;
+}
+
+.project-section-title p {
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+/* project-1 > blademark */
+
+.thes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.thes-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.thes-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+  border: 1px solid #0000001f; 
+}
+
+.thes-ico {
+  max-width: 50px;
+  border-left: 1px solid #0000001f;
+}
+
+.thes-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0000001f;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+  margin:0;
+  height: 50px;
+  /* background-color: red; */
+}
+
+.thes-title p {
+ margin: 0;
+ margin-left: 20px;
+}
+
+.thes-about {
+  line-height: normal;
+  margin: 10px 0;
+  padding: 10px 20px;
+}
+
+.thes-box-wrapper:not(:last-child) {
+  margin-right: 20px;
+}
+
+.process-swiper {
+  background-color: #fff;
+}
+.lc-slide {
+  border: 1px solid #0000001f;
+}
 /* project-2 > marks & symbols */
 
 .marks {
@@ -610,7 +754,8 @@ li.menu-item a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #444;
 }
 
 .full-mark-img {
@@ -684,8 +829,11 @@ li.menu-item a {
 .designers-wrapper {
   display: flex;
   flex-direction: row;
+  margin: 0 20px;
 }
-
+.dsg-hr {
+  background-color:#0000001f;
+}
 .designer {
   display: flex;
   flex-direction: column;
@@ -769,7 +917,9 @@ li.menu-item a {
 #connect {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
   margin-top: 80px;
+
 }
 
 .connect {
@@ -788,13 +938,14 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   max-width: 1440px;
-  height: 60px;
+  height: 40px;
   background: #fff;
   margin-top: 80px;
-  border-top: 1px solid #000;
+  border-top: 1px solid #0000001f;
+
 }
 
 p.creator {
@@ -803,6 +954,7 @@ p.creator {
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
+  padding-left: 20px;
 }
 
 p.copyright {
@@ -811,4 +963,5 @@ p.copyright {
   font-weight: 700;
   text-transform: uppercase;
   color: #000;
+  padding-right: 20px;
 }

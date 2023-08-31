@@ -32,6 +32,9 @@
         height: 100%;
         min-height: 320px;
       }
+      .thes {
+        flex-direction: column;
+      }
 }
 
 /* @media (max-width: 1200px) {
@@ -62,16 +65,22 @@
 @media (min-width: 769px) {
 
     .m-projects {
-        flex-direction: row;
+        flex-direction: row !important;
     }
 
-    /* .project:nth-child(odd) {
+    /* .project:nth-child(even) {
         margin-right: 20px;
     } */
-    .project {
+   .project {
         margin-right: 20px;
     }
+  .project:nth-child(3) {
+        margin-right: 20px;
+    } 
     .project:nth-child(3) {
         margin-right: 0px;
-    }
+    } 
+   /*    .project:nth-child(2) {
+        margin-right: 0px;
+    }  */
 }
