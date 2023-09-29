@@ -482,7 +482,7 @@
     }
     if ($(".content-holder").hasClass("hide_footer2")) {
         if ($(window).width() < 1064) {
-            $(".policy-box , .social_links").addClass("hide_pol").remove;
+            $(".policy-box , .social_links").addClass("").remove;
             var newElem3 = $(".policy-box span").clone(),
                 necon3 = $(".mob-footer_gal"),
                 newElem4 = $(".sc-links_clone").clone(),
