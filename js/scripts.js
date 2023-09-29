@@ -88,7 +88,7 @@
             preloadImages: false,
             slidesPerView: 2,
             spaceBetween: 20,
-            loop: true,
+            loop: false,
             grabCursor: true,
             mousewheel: false,
             centeredSlides: false,
