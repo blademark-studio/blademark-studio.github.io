@@ -88,7 +88,7 @@
             preloadImages: false,
             slidesPerView: 2,
             spaceBetween: 20,
-            loop: false,
+            loop: true,
             grabCursor: true,
             mousewheel: false,
             centeredSlides: false,
@@ -482,7 +482,7 @@
     }
     if ($(".content-holder").hasClass("hide_footer2")) {
         if ($(window).width() < 1064) {
-            $(".policy-box , .social_links").addClass("").remove;
+            $(".policy-box , .social_links").addClass("hide_pol").remove;
             var newElem3 = $(".policy-box span").clone(),
                 necon3 = $(".mob-footer_gal"),
                 newElem4 = $(".sc-links_clone").clone(),
