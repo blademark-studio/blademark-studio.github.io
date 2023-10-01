@@ -37,7 +37,7 @@ if(trim($name) == '') {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "myemail@gmail.com";
+$address = "blademark.co@gmail.com";
 
 
 // Configuration option.

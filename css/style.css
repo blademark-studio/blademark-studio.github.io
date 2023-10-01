@@ -378,7 +378,7 @@ blockquote p {
 }
 .social_links li , .footer-bg_social_links li , .mob-footer_gal li {
 	float: left;
-	margin-left: 15px;
+	margin-right: 15px;
 }
 .social_links li a , .footer-bg_social_links li a ,  .mob-footer_gal li a {
 	color: #fff;
