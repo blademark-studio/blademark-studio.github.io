@@ -2189,6 +2189,26 @@ blockquote p {
     }
 }
 /* ------404------------------------------------------------------------ */
+.logo {
+	margin-bottom: 30px;
+}
+.index_btn {
+padding: 15px 50px;
+    background: #111;
+    font-size: 11px;
+	color: #fff;
+	font-weight: 600;
+	display: inline-block;
+}
+.index_subtitle {
+	color: rgba(255, 255, 255, 0.91);
+	font-size: 11px;
+	text-align:center;
+	letter-spacing:0px !important;
+	font-weight: 600;
+	text-transform:uppercase;
+	margin-bottom: 30px;
+}
 .error-wrap {
 	position: absolute;
 	top: 0;
