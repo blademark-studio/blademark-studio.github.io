@@ -870,6 +870,7 @@ blockquote p {
 	opacity: 0;
 	transform: scale(0.94)
 }
+
 .gallery-item img {
     float: left;
     width:100%;
@@ -879,10 +880,10 @@ blockquote p {
     transform: translateZ(0);
     transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
 }
-.gallery-item:hover img {
+/* .gallery-item:hover img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
-}
+} */
 .filter-btn {
 	position: fixed;
 	top: 50%;
@@ -1042,14 +1043,15 @@ blockquote p {
 }
 .hov_box  .overlay {
 	transition: all 0.3s linear;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 .hov_box:hover .overlay {
-	opacity: 0.6;
+	opacity: 0;
 }
 .hov_box-title  {
 	position: absolute;
-	top: 50%;
+	/* top: 50%; */
+	bottom: 60px;
 	left: 0;
 	right: 0;
 	z-index: 3;
@@ -1064,7 +1066,7 @@ blockquote p {
 .hov_box-title a {
 	font-size: 22px;
 	font-weight: 600;
-	color: #fff;
+	color: #bcbcbc;
 	display: block;
 	position: relative;
 }
@@ -1090,6 +1092,7 @@ blockquote p {
 	font-weight: 500;
 	text-transform: uppercase;
 	z-index: 3;
+	color: #bcbcbc;
 }
 .fsc-holder {
     height: 100%;
