@@ -443,8 +443,16 @@ blockquote p {
 .social_links li a,
 .footer-bg_social_links li a,
 .mob-footer_gal li a {
-	color: #fff;
-	font-size: 12px;
+	color: #cececeaf;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social_links span,
@@ -1691,67 +1699,8 @@ blockquote p {
 }
 
 /* ------Blog------------------------------------------------------------ */
-.swiper {
-	width: 100%;
-	height: 100%;
-	/* overflow: hidden; */
-  }
-  .mark-swipers {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	margin: 20px 0;
-  }
-.mark-swiper:not(:last-child) {
-	margin-bottom: 5px;
-}
-.wordmarks-t {
-	margin-top: 50px;
-}
-.logofolio-list {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* margin-top: 15px; */
-}
 
-.logofolio-img {
-	height: 100%;
-	width: 100%;
-	margin-bottom: 5px;
-	background-color: #0D0D0D;
-}
-.logofolio-img img {
-	height: 600px;
-	width: 100%;
-	padding: 150px 0;
-}
-.vol {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin: 0 0 200px 0;
-}
-  .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	background: transparent;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
 
-  .swiper-slide img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-  }
-  
 .post-items {
 	margin-bottom: 50px;
 }
@@ -2077,8 +2026,8 @@ blockquote p {
 }
 
 .single-post-container {
-	max-width: 934px;
-	width: 92%;
+	max-width: 100%;
+	width: 100%;
 	margin: 0 auto 120px;
 }
 
@@ -2652,12 +2601,7 @@ blockquote p {
 }
 
 .index_btn {
-	padding: 15px 50px;
-	background: #111;
-	font-size: 11px;
-	color: #fff;
-	font-weight: 600;
-	display: inline-block;
+	display: none;
 }
 
 .index_subtitle {
@@ -2814,6 +2758,15 @@ blockquote p {
 }
 
 @media only screen and (max-width: 1064px) {
+
+	.index_btn {
+		padding: 15px 50px;
+	background: #111;
+	font-size: 11px;
+	color: #fff;
+	font-weight: 600;
+	display: inline-block;
+	}
 
 	.mob-hid,
 	.progress-bar-wrap,
@@ -3339,4 +3292,79 @@ blockquote p {
 		-webkit-background-size: cover;
 		background-position: center;
 	}
+}
+
+
+.vol {
+	display: flex;
+	flex-direction: column;
+}
+.vol:not(:last-child) {
+	margin-bottom: 80px;
+}
+.vol p {
+	padding-bottom: 20px;
+}
+.logofolio-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 1064px;
+	margin-top: 10px;
+}
+
+.logofolio-img {
+	width: 100%;
+	height: 100%;
+}
+
+.logofolio-img:not(:last-child) {
+	margin-right: 10px;
+}
+
+.logofolio-img img {
+	width: 100%;
+}
+
+.logofolio-header {
+	background-color: #3C3C3C;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.wordmark-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 1064px;
+	margin-top: 10px;
+}
+
+.wordmark-img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.wordmark-img img {
+	width: 100%;
+}
+
+.social-ico {
+	transition: ease-in-out .2s;
+	background-color: #38383848;
+	border: 1px solid #44444480;
+}
+
+.social-ico:hover {
+	transition: ease-in-out .2s;
+	background-color: #fff;
+	color: #000;
 }
