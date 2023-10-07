@@ -103,8 +103,8 @@
             }
         });
     }
-    if ($(".single-slider").length > 0) {
-        var j2 = new Swiper(".single-slider .swiper-container", {
+    if ($(".ss1").length > 0) {
+        var j2 = new Swiper(".ss1 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
             spaceBetween: 0,
@@ -113,7 +113,7 @@
             grabCursor: false,
             mousewheel: false,
             pagination: {
-                el: '.tc-pagination',
+                el: '.tc1',
                 clickable: true,
             },
             navigation: {
@@ -122,6 +122,47 @@
             },
         });
     }
+
+    if ($(".ss2").length > 0) {
+        var j2 = new Swiper(".ss2 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc2',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.ss-slider-cont-next',
+                prevEl: '.ss-slider-cont-prev',
+            },
+        });
+    }
+
+    if ($(".ss3").length > 0) {
+        var j2 = new Swiper(".ss3 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc3',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.ss-slider-cont-next',
+                prevEl: '.ss-slider-cont-prev',
+            },
+        });
+    }
+
     // isotope------------------
     function nc() {
         if ($(".gallery-items").length) {
