@@ -435,42 +435,42 @@
         });
     });
     // Share   ------------------
-    $(".share-container").share({
-        networks: ['facebook', 'pinterest', 'twitter', 'tumblr']
-    });
-    var shrcn = $(".share-container"),
-        swra = $(".share-wrapper"),
-        shic = $(".share-icon"),
-        ssbtn = $(".share-btn");
-    function showShare() {
-        swra.fadeIn(1);
-        ssbtn.addClass("uncl-share");
-        shrcn.removeClass("isShare");
-        shic.each(function (a) {
-            var boi = $(this);
-            setTimeout(function () {
-                TweenMax.to(boi, 1.0, {
-                    force3D: false,
-                    opacity: "1"
-                });
-            }, 130 * a);
-        });
-    }
-    function hideShare() {
-        ssbtn.removeClass("uncl-share");
-        shrcn.addClass("isShare");
-        TweenMax.to($(".share-icon"), 1.0, {
-            force3D: false,
-            opacity: "0",
-            onComplete: function () {
-                swra.fadeOut(1);
-            }
-        });
-    }
-    ssbtn.on("click", function () {
-        if ($(".share-container").hasClass("isShare")) showShare();
-        else hideShare();
-    });
+    // $(".share-container").share({
+    //     networks: ['facebook', 'pinterest', 'twitter', 'tumblr']
+    // });
+    // var shrcn = $(".share-container"),
+    //     swra = $(".share-wrapper"),
+    //     shic = $(".share-icon"),
+    //     ssbtn = $(".share-btn");
+    // function showShare() {
+    //     swra.fadeIn(1);
+    //     ssbtn.addClass("uncl-share");
+    //     shrcn.removeClass("isShare");
+    //     shic.each(function (a) {
+    //         var boi = $(this);
+    //         setTimeout(function () {
+    //             TweenMax.to(boi, 1.0, {
+    //                 force3D: false,
+    //                 opacity: "1",
+    //             });
+    //         }, 130 * a);
+    //     });
+    // }
+    // function hideShare() {
+    //     ssbtn.removeClass("uncl-share");
+    //     shrcn.addClass("isShare");
+    //     TweenMax.to($(".share-icon"), 1.0, {
+    //         force3D: false,
+    //         opacity: "0",
+    //         onComplete: function () {
+    //             swra.fadeOut(1);
+    //         }
+    //     });
+    // }
+    // ssbtn.on("click", function () {
+    //     if ($(".share-container").hasClass("isShare")) showShare();
+    //     else hideShare();
+    // });
     //   cursor ------------------
     $("a , .btn ,   textarea,   input  , .share-btn   , .closedet_style  , .nav-button , .swiper-pagination-bullet , .to-top-btn  , .gc-slider-cont , .fwcb , .pr-det_btn , .cl-det-btn , .share-icon").on({
         mouseenter: function () {

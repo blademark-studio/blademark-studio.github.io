@@ -337,7 +337,9 @@ blockquote p {
 .nav-button span:first-child {
 	width: 50%;
 }
-
+.share-btn a {
+	color: #fff;
+}
 .share-btn {
 	position: fixed;
 	top: 40px;
@@ -356,7 +358,7 @@ blockquote p {
 	background: rgba(255, 255, 255, 0.08);
 }
 
-.share-btn:before {
+/* .share-btn:before {
 	font-family: Font Awesome\ 5 Pro;
 	content: "\f00d";
 	position: absolute;
@@ -372,7 +374,7 @@ blockquote p {
 
 .share-btn.uncl-share:before {
 	top: 0;
-}
+} */
 
 .policy-box {
 	position: fixed;
@@ -382,7 +384,7 @@ blockquote p {
 	color: #fff;
 	text-align: left;
 	font-weight: 600;
-	font-size: 11px;
+	font-size: 12px;
 	text-transform: uppercase;
 	transition: all .2s ease-in-out;
 }
@@ -392,7 +394,7 @@ blockquote p {
 	color: #fff;
 	text-align: left;
 	font-weight: 600;
-	font-size: 11px;
+	font-size: 12px;
 	text-transform: uppercase;
 }
 
@@ -2653,7 +2655,7 @@ blockquote p {
 
 .error-container p {
 	color: rgba(255, 255, 255, 0.91);
-	font-size: 11px;
+	font-size: 12px;
 	text-align: center;
 	letter-spacing: 2px;
 	font-weight: 600;
@@ -2704,6 +2706,8 @@ blockquote p {
 	color: #fff;
 	background: #333;
 	opacity: 0;
+	pointer-events: none;
+  cursor: not-allowed;
 }
 
 .share-icon:before {
@@ -3367,4 +3371,72 @@ blockquote p {
 	transition: ease-in-out .2s;
 	background-color: #fff;
 	color: #000;
+}
+
+.project-details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.project-details p {
+	text-align: left;
+	font-size: 14px !important;
+	font-weight: 400;
+	
+}
+
+.tag {
+	background-color: #292929;
+	color: #ffffffb2;
+	font-size: 11px;
+	padding: 5px 8px;
+}
+.RVEQke {
+	background-color: red !important;
+}
+.request {
+	background-color: #fff;
+	/* background-image: url('../images/bg/so-white.png'); */
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 50px;
+	border: 1px solid #35353588;
+	border-radius: 20px;
+	overflow: hidden !important;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	padding-top: 150px;
+	pading-left: 500px;
+}
+
+.connect-img {
+	border: 1px solid #5353538a;
+	/* box-shadow: 0 0 150px 0 #5a5a5a42; */
+	background-color: #1111116e;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border-radius: 10px;
+}
+
+.connect-img img{
+width: 100%;
+height: 100%;
+padding: 100px;
+}
+
+.request-btn {
+	width: 100%;
+	padding: 15px 50px;
+	background: #111;
+	font-size: 11px;
+	color: #fff;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.connect-vid {
+	filter: grayscale(100%);
 }
