@@ -117,8 +117,8 @@
                 clickable: true,
             },
             navigation: {
-                nextEl: '.ss-slider-cont-next',
-                prevEl: '.ss-slider-cont-prev',
+                nextEl: '.next1',
+                prevEl: '.prev1',
             },
         });
     }
@@ -137,8 +137,8 @@
                 clickable: true,
             },
             navigation: {
-                nextEl: '.ss-slider-cont-next',
-                prevEl: '.ss-slider-cont-prev',
+                nextEl: '.next2',
+                prevEl: '.prev2',
             },
         });
     }
@@ -157,8 +157,148 @@
                 clickable: true,
             },
             navigation: {
-                nextEl: '.ss-slider-cont-next',
-                prevEl: '.ss-slider-cont-prev',
+                nextEl: '.next3',
+                prevEl: '.prev3',
+            },
+        });
+    }
+
+    if ($(".ss4").length > 0) {
+        var j2 = new Swiper(".ss4 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc4',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next4',
+                prevEl: '.prev4',
+            },
+        });
+    }
+
+    if ($(".ss5").length > 0) {
+        var j2 = new Swiper(".ss5 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc5',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next5',
+                prevEl: '.prev5',
+            },
+        });
+    }
+
+    if ($(".ss6").length > 0) {
+        var j2 = new Swiper(".ss6 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc6',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next6',
+                prevEl: '.prev6',
+            },
+        });
+    }
+
+    if ($(".ss7").length > 0) {
+        var j2 = new Swiper(".ss7 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc7',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next7',
+                prevEl: '.prev7',
+            },
+        });
+    }
+
+    if ($(".ss8").length > 0) {
+        var j2 = new Swiper(".ss8 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc8',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next8',
+                prevEl: '.prev8',
+            },
+        });
+    }
+
+    if ($(".ss9").length > 0) {
+        var j2 = new Swiper(".ss9 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc9',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next9',
+                prevEl: '.prev9',
+            },
+        });
+    }
+
+    if ($(".ss10").length > 0) {
+        var j2 = new Swiper(".ss10 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc10',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next10',
+                prevEl: '.prev10',
             },
         });
     }
