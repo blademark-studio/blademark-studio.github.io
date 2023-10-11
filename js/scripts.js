@@ -107,7 +107,7 @@
         var j2 = new Swiper(".ss1 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -127,7 +127,7 @@
         var j2 = new Swiper(".ss2 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -147,7 +147,7 @@
         var j2 = new Swiper(".ss3 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -167,7 +167,7 @@
         var j2 = new Swiper(".ss4 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -187,7 +187,7 @@
         var j2 = new Swiper(".ss5 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -207,7 +207,7 @@
         var j2 = new Swiper(".ss6 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -227,7 +227,7 @@
         var j2 = new Swiper(".ss7 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -247,7 +247,7 @@
         var j2 = new Swiper(".ss8 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -267,7 +267,7 @@
         var j2 = new Swiper(".ss9 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
@@ -287,7 +287,7 @@
         var j2 = new Swiper(".ss10 .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
             loop: true,
             autoHeight: true,
             grabCursor: false,
