@@ -1246,15 +1246,17 @@ blockquote p {
 }
 
 .hov_box-title {
-	position: absolute;
+	/* display: none; */
+	/* position: absolute; */
 	/* top: 50%; */
 	bottom: 60px;
 	left: 0;
 	right: 0;
 	z-index: 3;
 	transition: all 0.3s linear;
-	opacity: 0;
-	transform: translateY(20px)
+	opacity: 1;
+	/* transform: translateY(20px); */
+	background: #0D0D0D;
 }
 
 .hov_box:hover .hov_box-title {
@@ -1265,9 +1267,10 @@ blockquote p {
 .hov_box-title a {
 	font-size: 22px;
 	font-weight: 600;
-	color: #bcbcbc;
+	color: #c4c4c4b2;
 	display: block;
 	position: relative;
+
 }
 
 .hov_box-title a:before {
@@ -1295,6 +1298,8 @@ blockquote p {
 	text-transform: uppercase;
 	z-index: 3;
 	color: #bcbcbc;
+	padding-bottom: 50px;
+
 }
 
 .fsc-holder {
@@ -2284,7 +2289,17 @@ blockquote p {
 .next7,
 .next8,
 .next9,
-.next10 {
+.next10,
+.next11,
+.next12,
+.next13,
+.next14,
+.next15,
+.next16,
+.next17,
+.next18,
+.next19,
+.next20  {
 	right: 0;
 }
 
@@ -2297,7 +2312,17 @@ blockquote p {
 .prev7,
 .prev8,
 .prev9,
-.prev10 {
+.prev10,
+.prev11,
+.prev12,
+.prev13,
+.prev14,
+.prev15,
+.prev16,
+.prev17,
+.prev18,
+.prev19,
+.prev20 {
 	left: 0;
 }
 
@@ -2891,7 +2916,7 @@ blockquote p {
 	}
 
 	.gallery-item {
-		width: 33.3%;
+		width: 25%;
 		padding: 4px;
 	}
 
@@ -3363,7 +3388,7 @@ blockquote p {
 }
 
 .vol:not(:last-child) {
-	margin-bottom: 100px;
+	margin-bottom: 500px;
 }
 
 .vol p {

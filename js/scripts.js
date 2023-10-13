@@ -303,6 +303,205 @@
         });
     }
 
+    if ($(".ss11").length > 0) {
+        var j2 = new Swiper(".ss11 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc11',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next11',
+                prevEl: '.prev11',
+            },
+        });
+    }
+
+    if ($(".ss12").length > 0) {
+        var j2 = new Swiper(".ss12 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc12',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next12',
+                prevEl: '.prev12',
+            },
+        });
+    }
+
+    if ($(".ss13").length > 0) {
+        var j2 = new Swiper(".ss13 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc13',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next13',
+                prevEl: '.prev13',
+            },
+        });
+    }
+
+    if ($(".ss14").length > 0) {
+        var j2 = new Swiper(".ss14 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc14',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next14',
+                prevEl: '.prev14',
+            },
+        });
+    }
+
+    if ($(".ss15").length > 0) {
+        var j2 = new Swiper(".ss15 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc15',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next15',
+                prevEl: '.prev15',
+            },
+        });
+    }
+    if ($(".ss16").length > 0) {
+        var j2 = new Swiper(".ss16 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc16',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next16',
+                prevEl: '.prev16',
+            },
+        });
+    }
+
+    if ($(".ss17").length > 0) {
+        var j2 = new Swiper(".ss17 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc17',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next17',
+                prevEl: '.prev17',
+            },
+        });
+    }
+
+    if ($(".ss18").length > 0) {
+        var j2 = new Swiper(".ss18 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc18',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next18',
+                prevEl: '.prev18',
+            },
+        });
+    }
+
+    if ($(".ss19").length > 0) {
+        var j2 = new Swiper(".ss19 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc19',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next19',
+                prevEl: '.prev19',
+            },
+        });
+    }
+
+    if ($(".ss20").length > 0) {
+        var j2 = new Swiper(".ss20 .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+             // autoHeight: true,
+            grabCursor: false,
+            mousewheel: false,
+            pagination: {
+                el: '.tc20',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.next20',
+                prevEl: '.prev20',
+            },
+        });
+    }
+    
     // isotope------------------
     function nc() {
         if ($(".gallery-items").length) {
