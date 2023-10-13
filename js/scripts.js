@@ -109,7 +109,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -129,7 +129,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -149,7 +149,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -169,7 +169,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -189,7 +189,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -209,7 +209,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -229,7 +229,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -249,7 +249,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -269,7 +269,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
@@ -289,7 +289,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
-            autoHeight: true,
+             // autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
