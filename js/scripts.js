@@ -1109,3 +1109,7 @@ if (trueMobile) {
 document.addEventListener('gesturestart', function (e) {
 	e.preventDefault();
 });
+
+    document.getElementById("po-01").onclick = function () {
+        location.href = "/01.html";
+    };
