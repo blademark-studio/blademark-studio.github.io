@@ -1048,7 +1048,7 @@ blockquote p {
 	position: relative;
 	overflow: hidden;
 	opacity: 0;
-	transform: scale(0.94)
+	transform: scale(0.94);
 }
 
 .gallery-item img {
@@ -1253,7 +1253,7 @@ blockquote p {
 }
 
 .hov_box-title {
-	/* display: none; */
+	/* display: none !important; */
 	/* position: absolute; */
 	/* top: 50%; */
 	bottom: 60px;
