@@ -758,7 +758,7 @@ blockquote p {
 	right: -9px;
 	width: 20px;
 	height: 30px;
-	border-radius: 3px;
+	border-radius: 0;
 	padding: 0 6px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-sizing: border-box;
@@ -1023,7 +1023,7 @@ blockquote p {
 
 /* ------portfolio------------------------------------------------------------ */
 .gallery-items {
-	width: 150%;
+	width: 130%;
 	padding: 0 150px 150px 0;
 }
 
@@ -1041,7 +1041,7 @@ blockquote p {
 	position: relative;
 	width: 25%;
 	padding: 40px 40px 0 0;
-	cursor: pointer;
+	/* cursor: pointer; */
 	display: flex;
 	flex-direction: row;
 }
@@ -1720,7 +1720,7 @@ blockquote p {
 
 .folio-slider-link_item span {
 	position: absolute;
-	left: -12px;
+	left: -30px;
 	top: 50%;
 	font-size: 9px;
 	text-transform: uppercase;
@@ -2976,7 +2976,7 @@ blockquote p {
 
 	.gallery-items {
 		width: 100%;
-		padding: 74px 0;
+		padding: 70px 0;
 		float: left;
 	}
 
@@ -3049,9 +3049,12 @@ blockquote p {
 		width: 100%;
 		position: relative;
 		overflow: hidden;
-		padding: 5px 8px;
+	}
+
+	.menusb li:not(:last-child) {
 		border-bottom: 1px solid #58585841;
 	}
+
 
 	.menusb li i {
 		position: absolute;
@@ -3062,7 +3065,7 @@ blockquote p {
 	.menusb a {
 		float: left;
 		width: 100%;
-		padding: 8px 10px;
+		padding: 13px 18px;
 		position: relative;
 		font-weight: 500;
 		font-size: 12px;
@@ -3256,12 +3259,21 @@ blockquote p {
 	.error-wrap {
 		min-height: 100vh
 	}
+	.hov_box .overlay {
+		opacity: 0;
+			}
 }
 
 @media only screen and (max-width: 784px) {
+
+	
+
 	.gallery-item {
-		width: 100%;
-		padding: 2px 0;
+		/* width: 100%; */
+		width: auto;
+		padding: 0;
+		margin: 0 25px;
+		margin-top: 25px;
 	}
 
 	.gallery-filters a {
@@ -3662,6 +3674,7 @@ hr {
     width: 100%;
     height: 100%;
 	z-index: 10;
+	cursor: pointer;
     /* background: #000;
     opacity: 0.4;
     z-index: 9; */
