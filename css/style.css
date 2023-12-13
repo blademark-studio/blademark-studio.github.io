@@ -123,6 +123,11 @@ blockquote p {
 	z-index: 2;
 }
 
+.content-item {
+	/* border-bottom: 1px solid #fff; */
+	margin-bottom: 20px;
+}
+
 .fl-wrap {
 	float: left;
 	width: 100%;
@@ -485,7 +490,19 @@ blockquote p {
 .mfg-2 {
 	display: none;
 }
+.sc-links_clone span {
+	height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 0 20px;
+	background-color: rgba(114, 114, 114, 0.199);
+	border: 1px solid #5a5a5a42;
 
+}
+.mailme {
+	color: #fff;
+}
 /* ------portfolio------------------------------------------------------------ */
 .hero-section_bg {
 	overflow: hidden;
@@ -517,7 +534,9 @@ blockquote p {
 .hero-section_title {
 	z-index: 2;
 }
-
+.sec-anim {
+	margin-top: 0 !important;
+}
 .sec-anim,
 .hero-section_title {
 	transform: translateY(50px);
@@ -525,7 +544,12 @@ blockquote p {
 }
 
 .hero-section {
-	margin-bottom: 150px;
+	margin-bottom: 80px;
+}
+
+.graphic-studio {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .hero-section_title h2 {
@@ -552,7 +576,7 @@ blockquote p {
 }
 
 .section {
-	margin: 90px 0;
+	margin: 120px 0;
 }
 
 .section-title {
@@ -853,7 +877,7 @@ blockquote p {
 /*------ testimonials------------------------------------------------*/
 .testi-item p {
 	text-align: left;
-	padding: 25px 0 20px 0;
+	padding: 40px 0 40px 0;
 	color: #BABABA;
 	font-size: 12px;
 }
@@ -875,9 +899,9 @@ blockquote p {
 }
 
 .testi-item h3 {
-	font-size: 14px;
-	padding: 16px 0 14px 70px;
-	font-weight: 700;
+	font-size: 24px;
+	padding: 16px 0 0 110px;
+	font-weight: 900;
 	text-align: left;
 }
 
@@ -903,19 +927,33 @@ blockquote p {
 
 .testi-avatar,
 .testi-avatar img {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100%;
+	
 }
 
 .testi-avatar {
 	position: absolute;
 	left: 30px;
-	top: 20px;
+	top: 30px;
 	opacity: 1;
+	border-radius: 100%;
 	overflow: hidden;
+	border: 1px solid #ffffff5e;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.dsg-title {
+	text-align: left;
+	padding: 2px 0 14px 110px;
+	font-size: 12px;
+    font-weight: 400;
+}
 .single-slider img {
 	width: 100%;
 	/* height: auto; */
@@ -3640,9 +3678,9 @@ blockquote p {
 
 hr {
 	border: 0;
-	border-top: 1px solid #555555a4;
+	border-top: 1px solid #55555559;
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .img-hd {

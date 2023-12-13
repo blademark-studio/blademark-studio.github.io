@@ -87,14 +87,14 @@
         var j2 = new Swiper(".testilider .swiper-container", {
             preloadImages: false,
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 40,
             loop: false,
-            grabCursor: true,
+            grabCursor: false,
             mousewheel: false,
             centeredSlides: false,
             pagination: {
                 el: '.tc-pagination',
-                clickable: true,
+                clickable: false,
             },
             breakpoints: {
                 640: {
