@@ -1,18 +1,20 @@
  function initEndor() {
     "use strict";
     // preload------------------
-	firstLoad();
+    firstLoad();
+
     function firstLoad() {
-        TweenMax.to(".ml-mask", 1.7, {
-            xPercent: 100,
-            repeat: 0,
-            yoyo: false,
-            repeatDelay: 0.5,
-            ease: Linear.easeNone,
+        var logo = document.querySelector('.ml-wrap img'); // Selektujemo logotip
+    
+        TweenMax.to(logo, 1, {
+            rotation: 360, // Rotacija od 360 stepeni
+            ease: Power1.easeInOut, // Dodatni efekti za glatku rotaciju
             onComplete: function () {
-                $(".main-loader").fadeOut(1300);
-                initpageloadAnimation();
-				nc();
+                $(".main-loader").fadeOut(1000, function () {
+                    $(this).css('display', 'none'); // Sakriva loader nakon završetka animacije
+                    initpageloadAnimation();
+                    nc();
+                });
             }
         });
     }
@@ -87,421 +89,43 @@
         var j2 = new Swiper(".testilider .swiper-container", {
             preloadImages: false,
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 20,
             loop: false,
             grabCursor: false,
+            preventInteractionOnTransition: true,
+            allowTouchMove:false,
             mousewheel: false,
             centeredSlides: false,
             pagination: {
                 el: '.tc-pagination',
-                clickable: false,
+                clickable: true,
             },
             breakpoints: {
                 640: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
             }
         });
     }
-    if ($(".ss1").length > 0) {
-        var j2 = new Swiper(".ss1 .swiper-container", {
+    if ($(".single-slider").length > 0) {
+        var j2 = new Swiper(".single-slider .swiper-container", {
             preloadImages: false,
             slidesPerView: 1,
-            spaceBetween: 20,
+            spaceBetween: 0,
             loop: true,
-             // autoHeight: true,
+            autoHeight: true,
             grabCursor: false,
             mousewheel: false,
             pagination: {
-                el: '.tc1',
+                el: '.tc-pagination',
                 clickable: true,
             },
             navigation: {
-                nextEl: '.next1',
-                prevEl: '.prev1',
+                nextEl: '.ss-slider-cont-next',
+                prevEl: '.ss-slider-cont-prev',
             },
         });
     }
-
-    if ($(".ss2").length > 0) {
-        var j2 = new Swiper(".ss2 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc2',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next2',
-                prevEl: '.prev2',
-            },
-        });
-    }
-
-    if ($(".ss3").length > 0) {
-        var j2 = new Swiper(".ss3 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc3',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next3',
-                prevEl: '.prev3',
-            },
-        });
-    }
-
-    if ($(".ss4").length > 0) {
-        var j2 = new Swiper(".ss4 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc4',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next4',
-                prevEl: '.prev4',
-            },
-        });
-    }
-
-    if ($(".ss5").length > 0) {
-        var j2 = new Swiper(".ss5 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc5',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next5',
-                prevEl: '.prev5',
-            },
-        });
-    }
-
-    if ($(".ss6").length > 0) {
-        var j2 = new Swiper(".ss6 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc6',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next6',
-                prevEl: '.prev6',
-            },
-        });
-    }
-
-    if ($(".ss7").length > 0) {
-        var j2 = new Swiper(".ss7 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc7',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next7',
-                prevEl: '.prev7',
-            },
-        });
-    }
-
-    if ($(".ss8").length > 0) {
-        var j2 = new Swiper(".ss8 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc8',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next8',
-                prevEl: '.prev8',
-            },
-        });
-    }
-
-    if ($(".ss9").length > 0) {
-        var j2 = new Swiper(".ss9 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc9',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next9',
-                prevEl: '.prev9',
-            },
-        });
-    }
-
-    if ($(".ss10").length > 0) {
-        var j2 = new Swiper(".ss10 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc10',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next10',
-                prevEl: '.prev10',
-            },
-        });
-    }
-
-    if ($(".ss11").length > 0) {
-        var j2 = new Swiper(".ss11 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc11',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next11',
-                prevEl: '.prev11',
-            },
-        });
-    }
-
-    if ($(".ss12").length > 0) {
-        var j2 = new Swiper(".ss12 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc12',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next12',
-                prevEl: '.prev12',
-            },
-        });
-    }
-
-    if ($(".ss13").length > 0) {
-        var j2 = new Swiper(".ss13 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc13',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next13',
-                prevEl: '.prev13',
-            },
-        });
-    }
-
-    if ($(".ss14").length > 0) {
-        var j2 = new Swiper(".ss14 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc14',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next14',
-                prevEl: '.prev14',
-            },
-        });
-    }
-
-    if ($(".ss15").length > 0) {
-        var j2 = new Swiper(".ss15 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc15',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next15',
-                prevEl: '.prev15',
-            },
-        });
-    }
-    if ($(".ss16").length > 0) {
-        var j2 = new Swiper(".ss16 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc16',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next16',
-                prevEl: '.prev16',
-            },
-        });
-    }
-
-    if ($(".ss17").length > 0) {
-        var j2 = new Swiper(".ss17 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc17',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next17',
-                prevEl: '.prev17',
-            },
-        });
-    }
-
-    if ($(".ss18").length > 0) {
-        var j2 = new Swiper(".ss18 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc18',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next18',
-                prevEl: '.prev18',
-            },
-        });
-    }
-
-    if ($(".ss19").length > 0) {
-        var j2 = new Swiper(".ss19 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc19',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next19',
-                prevEl: '.prev19',
-            },
-        });
-    }
-
-    if ($(".ss20").length > 0) {
-        var j2 = new Swiper(".ss20 .swiper-container", {
-            preloadImages: false,
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-             // autoHeight: true,
-            grabCursor: false,
-            mousewheel: false,
-            pagination: {
-                el: '.tc20',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.next20',
-                prevEl: '.prev20',
-            },
-        });
-    }
-    
     // isotope------------------
     function nc() {
         if ($(".gallery-items").length) {
@@ -741,28 +365,7 @@
     $(".sb-det_overlay").on("click", function () {
         hideSidebar();
     })
-    //   Contact form------------------
-    $("#contactform").submit(function () {
-        var a = $(this).attr("action");
-        $("#message").slideUp(750, function () {
-            $("#message").hide();
-            $("#submit").attr("disabled", "disabled");
-            $.post(a, {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                comments: $("#comments").val(),
-            }, function (a) {
-                document.getElementById("message").innerHTML = a;
-                $("#message").slideDown("slow");
-                $("#submit").removeAttr("disabled");
-                if (null != a.match("success")) $("#contactform").slideDown("slow");
-            });
-        });
-        return false;
-    });
-    $("#contactform input, #contactform textarea").on("keyup", function () {
-        $("#message").slideUp(1500);
-    });
+   
 	// mouse move animation------------------
     $(window).on("scroll", function (a) {
         var a = $(document).height();
@@ -773,43 +376,7 @@
             height: d + "%"
         });
     });
-    // Share   ------------------
-    // $(".share-container").share({
-    //     networks: ['facebook', 'pinterest', 'twitter', 'tumblr']
-    // });
-    // var shrcn = $(".share-container"),
-    //     swra = $(".share-wrapper"),
-    //     shic = $(".share-icon"),
-    //     ssbtn = $(".share-btn");
-    // function showShare() {
-    //     swra.fadeIn(1);
-    //     ssbtn.addClass("uncl-share");
-    //     shrcn.removeClass("isShare");
-    //     shic.each(function (a) {
-    //         var boi = $(this);
-    //         setTimeout(function () {
-    //             TweenMax.to(boi, 1.0, {
-    //                 force3D: false,
-    //                 opacity: "1",
-    //             });
-    //         }, 130 * a);
-    //     });
-    // }
-    // function hideShare() {
-    //     ssbtn.removeClass("uncl-share");
-    //     shrcn.addClass("isShare");
-    //     TweenMax.to($(".share-icon"), 1.0, {
-    //         force3D: false,
-    //         opacity: "0",
-    //         onComplete: function () {
-    //             swra.fadeOut(1);
-    //         }
-    //     });
-    // }
-    // ssbtn.on("click", function () {
-    //     if ($(".share-container").hasClass("isShare")) showShare();
-    //     else hideShare();
-    // });
+
     //   cursor ------------------
     $("a , .btn ,   textarea,   input  , .share-btn   , .closedet_style  , .nav-button , .swiper-pagination-bullet , .to-top-btn  , .gc-slider-cont , .fwcb , .pr-det_btn , .cl-det-btn , .share-icon").on({
         mouseenter: function () {
@@ -1109,4 +676,3 @@ if (trueMobile) {
 document.addEventListener('gesturestart', function (e) {
 	e.preventDefault();
 });
-
