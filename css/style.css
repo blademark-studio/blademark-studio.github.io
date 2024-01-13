@@ -415,7 +415,7 @@ blockquote p {
 .social_links {
 	position: fixed;
 	bottom: 40px;
-	left: 50px;
+	left: 60px;
 	z-index: 20;
 	font-weight: 600;
 	transition: all .2s ease-in-out;
@@ -450,7 +450,7 @@ blockquote p {
 .footer-bg_social_links span,
 .mob-footer_gal span {
 	float: left;
-	margin-right: 10px;
+	/* margin-right: 10px; */
 	position: relative;
 	font-size: 12px;
 	top: 2px;
@@ -2744,7 +2744,7 @@ blockquote p {
 
 @media only screen and (max-width: 1264px) {
 	.policy-box {
-		right: 30px;
+		right: 60px;
 	}
 
 	.mob-footer_gal span {
@@ -2772,6 +2772,9 @@ blockquote p {
 }
 
 @media only screen and (max-width: 1064px) {
+	.policy-box {
+		right: 30px !important;
+	}
 	.menusb li:not(:last-child) {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	}
@@ -3145,19 +3148,23 @@ blockquote p {
 }
 
 @media only screen and (max-width: 784px) {
+	.to-top-btn {
+		display: none;
+	}
 
-	/* .footer-bg {
-		padding: 50px 30px 50px;
+	.footer-bg {
+		padding: 50px 30px 30px;
 	}
 	.footer-bg_polcy {
-		float: left !important;
-		margin-top: 2px;
-		left: 30px !important;
+		float: right !important;
+		/* margin-top: 2px;
+		left: 30px !important; */
 	}
 	.footer-bg_social_links {
-		float: right !important;
-		right: 30px !important;
-	} */
+		float: left !important;
+		/* right: 30px !important; */
+	} 
+
 	.mob-footer_gal span {
 		font-weight: 600;
 		text-transform: uppercase;
@@ -3225,7 +3232,7 @@ blockquote p {
 	}
 
 	.mob-footer_gal {
-		padding: 50px 30px 50px;
+		padding: 50px 30px 30px;
 	}
 
 	.social_links span,
@@ -3234,10 +3241,13 @@ blockquote p {
 	.mob-footer_gal .sc-links_clone,
 	.footer-bg_polcy,
 	.footer-bg_social_links {
-		float: left;
+		float: right;
 		text-align: center;
 	}
-
+.sc-links_clone {
+	float: left !important;
+	margin-top: 2px;
+}
 	.mob-footer_gal .sc-links_clone,
 	.footer-bg_social_links {
 		/* margin-top: 20px; */
@@ -3277,7 +3287,7 @@ blockquote p {
 	.mob-footer_gal .sc-links_clone,
 	.footer-bg_polcy,
 	.footer-bg_social_links {
-		width: 100%;
+		/* width: 100%; */
 	}
 
 	.to-top-btn {
