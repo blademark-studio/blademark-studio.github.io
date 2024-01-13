@@ -3148,6 +3148,9 @@ blockquote p {
 }
 
 @media only screen and (max-width: 784px) {
+	.single-post-container {
+		width: 100%;
+	}
 	.to-top-btn {
 		display: none;
 	}
@@ -3368,4 +3371,22 @@ blockquote p {
 		-webkit-background-size: cover;
 		background-position: center;
 	}
+}
+.w-title {
+	font-size: 40px !important;
+}
+.marks-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mark {
+	display: flex;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.mark img {
+	width: 100%;
 }
