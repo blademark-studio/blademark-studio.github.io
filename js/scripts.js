@@ -414,7 +414,6 @@
         $(".policy-box").addClass("hide_pol3");
     } else {
         $(".policy-box ").removeClass("hide_pol3");
-
     }
     if ($(".content-holder").hasClass("hide_footer")) {
         $(".policy-box , .social_links").addClass("hide_pol2");
