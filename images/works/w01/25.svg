@@ -1,8 +1,18 @@
 <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_2_451" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="85" y="84" width="101" height="103">
-<path d="M101.405 170.336L168.543 170.5L168.572 158.532L113.875 158.398L113.915 141.966L184.977 142.139L184.868 186.978L85 186.735L85.1801 112.961L168.682 113.165L168.713 100.653L85.2106 100.449L85.2508 84L185.118 84.2437L185.008 129.644L101.505 129.44L101.405 170.336Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_2_451)">
-<path d="M85 186.735L184.868 186.978L185.118 84.2572L85.2507 84.0135L85 186.735Z" fill="white"/>
+<g clip-path="url(#clip0_2_451)">
+<path d="M103.334 108.427H88.8214V162.066H103.334V108.427Z" fill="white"/>
+<path d="M142.759 128.03V181.669H88.8214V167.237H128.247V128.03H142.759Z" fill="white"/>
+<path d="M162.471 88.8237H88.8214V103.256H162.471V88.8237Z" fill="white"/>
+<path d="M182.183 88.8237H167.67V162.066H182.183V88.8237Z" fill="white"/>
+<path d="M182.183 167.237V181.669H147.959V122.859H123.048V162.066H108.536V108.427H162.471V167.237H182.183Z" fill="white"/>
 </g>
+<rect x="78" y="186.7" width="102.983" height="5.72129" transform="rotate(-90 78 186.7)" fill="white"/>
+<rect x="187.271" y="186.7" width="102.983" height="5.72129" transform="rotate(-90 187.271 186.7)" fill="white"/>
+<rect x="193" y="83.7213" width="114.998" height="5.72129" transform="rotate(180 193 83.7213)" fill="white"/>
+<rect x="193" y="192.43" width="114.998" height="5.72129" transform="rotate(180 193 192.43)" fill="white"/>
+<defs>
+<clipPath id="clip0_2_451">
+<rect x="88.8214" y="88.8237" width="93.3612" height="92.8454" fill="white"/>
+</clipPath>
+</defs>
 </svg>
