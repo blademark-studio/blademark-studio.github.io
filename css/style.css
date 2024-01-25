@@ -2772,6 +2772,12 @@ blockquote p {
 }
 
 @media only screen and (max-width: 1064px) {
+	.fw-carousel .swiper-slide {
+		margin-bottom: 30px;
+	}
+	.pr-det_wrapper {
+		margin-bottom: 50px;
+	}
 	.policy-box {
 		right: 30px !important;
 	}
@@ -2881,7 +2887,7 @@ blockquote p {
 		overflow: inherit;
 		float: left;
 		width: 100%;
-		padding: 0 30px;
+		padding: 0 0px;
 	}
 
 	.hero-showcase-wrap {
@@ -3060,7 +3066,7 @@ blockquote p {
 
 	.slider-wrap .swiper-slide,
 	.fw-carousel .swiper-slide {
-		width: 50% !important;
+		width: 100% !important;
 		height: auto !important;
 		float: left;
 	}
