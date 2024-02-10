@@ -89,7 +89,7 @@
         var j2 = new Swiper(".testilider .swiper-container", {
             preloadImages: false,
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
             loop: false,
             grabCursor: false,
             preventInteractionOnTransition: true,
