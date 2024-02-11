@@ -14,9 +14,9 @@ html {
 	overflow-x: hidden !important;
 	overflow-y: scroll !important;
 	height: 100%;
-	-webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+	/* -webkit-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;  */
 }
 
 body {
@@ -598,7 +598,7 @@ blockquote p {
 }
 
 .services-item {
-	padding: 90px 40px 30px;
+	padding: 50px 40px 30px;
 	background: #111;
 }
 
@@ -610,7 +610,7 @@ blockquote p {
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	font-size: 54px;
+	font-size: 34px;
 	color: #fff;
 	opacity: 0.2;
 }
@@ -831,6 +831,7 @@ blockquote p {
 	padding: 25px 0 20px 0;
 	color: #BABABA;
 	font-size: 12px;
+	/* padding-bottom: 40px; */
 }
 
 .testi-item {
@@ -841,7 +842,7 @@ blockquote p {
 .testi-item:after {
 	font-family: Font Awesome\ 5 Pro;
 	content: "\f10e";
-	bottom: 20px;
+	top: 20px;
 	right: 25px;
 	position: absolute;
 	color: #fff;
@@ -860,8 +861,8 @@ blockquote p {
 	position: absolute;
 	right: 30px;
 	top: 20px;
-	color: #fff;
-	font-size: 14px;
+	color: #414141;
+	font-size: 20px;
 	z-index: 20;
 	font-weight: 600;
 }
@@ -3484,4 +3485,15 @@ blockquote p {
 .studio-logo {
 	margin-top: -100px;
 	margin-bottom: 50px;
+}
+
+.row2 {
+	margin-top: 30px;
+}
+
+.connect-btn {
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+    font-weight: 600;
 }
