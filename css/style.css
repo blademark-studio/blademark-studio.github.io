@@ -3497,3 +3497,11 @@ blockquote p {
 	font-size: 12px;
     font-weight: 600;
 }
+.linkov:focus {
+	outline: none;
+	background-color: transparent;
+}
+.linkov:active {
+	outline: none;
+	background-color: transparent;
+}
