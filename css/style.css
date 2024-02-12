@@ -600,6 +600,7 @@ blockquote p {
 .services-item {
 	padding: 50px 40px 30px;
 	background: #111;
+	padding-bottom: 40px;
 }
 
 .column-wrapper_text.services-item h4 {
@@ -621,6 +622,10 @@ blockquote p {
 	margin-top: 12px;
 	padding-top: 20px;
 	border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+.sl {
+border: none !important;
+margin-top: 0 !important;
 }
 
 .serv-list li {
@@ -2774,8 +2779,19 @@ blockquote p {
 		padding: 20px;
 	}
 }
+@media only screen and (min-width: 1064px) { 
+.tsl2 {
+	display: none;
+}
+}
 
 @media only screen and (max-width: 1064px) {
+	.ti1 {
+		margin-bottom: 30px;
+	}
+	.services-item {
+		margin-bottom: 30px;
+	}
 	.fw-carousel .swiper-slide {
 		margin-bottom: 30px;
 	}
@@ -3494,8 +3510,8 @@ blockquote p {
 .connect-btn {
 	color: #fff;
 	cursor: pointer;
-	font-size: 12px;
-    font-weight: 600;
+	font-size: 13px;
+    font-weight: 700;
 }
 .linkov:focus {
 	outline: none;
@@ -3504,4 +3520,14 @@ blockquote p {
 .linkov:active {
 	outline: none;
 	background-color: transparent;
+}
+
+.studio-mail {
+	color: #fff;
+}
+
+.gsb {
+	font-size: 30px !important;
+	text-align: left;
+	font-weight: 700;
 }

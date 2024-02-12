@@ -104,6 +104,9 @@
                 640: {
                     slidesPerView: 1,
                 },
+                1063: {
+                    slidesPerView: 1,
+                },
             }
         });
     }
