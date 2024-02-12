@@ -600,11 +600,15 @@ blockquote p {
 .services-item {
 	padding: 50px 40px 30px;
 	background: #111;
-	padding-bottom: 40px;
+}
+
+.sitem {
+	padding-bottom: 50px;
 }
 
 .column-wrapper_text.services-item h4 {
 	font-size: 18px;
+	font-weight: 500;
 }
 
 .services-item i {
@@ -3508,10 +3512,20 @@ margin-top: 0 !important;
 }
 
 .connect-btn {
-	color: #fff;
+	color: #afafaf;
+	background-color: #222;
 	cursor: pointer;
 	font-size: 13px;
     font-weight: 700;
+	padding: 10px 20px;
+	padding-top: 11px;
+	width: 100%;
+	transition: ease-in .3s;
+}
+.connect-btn:hover {
+	color: #afafaf;
+	background-color: #313131;
+	transition: ease-in .3s;
 }
 .linkov:focus {
 	outline: none;
@@ -3530,4 +3544,8 @@ margin-top: 0 !important;
 	font-size: 30px !important;
 	text-align: left;
 	font-weight: 700;
+}
+
+.cp {
+	padding-bottom: 20px;
 }
