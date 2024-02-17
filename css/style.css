@@ -14,9 +14,9 @@ html {
 	overflow-x: hidden !important;
 	overflow-y: scroll !important;
 	height: 100%;
-	/* -webkit-user-select: none; 
+	-webkit-user-select: none; 
   -ms-user-select: none;
-  user-select: none;  */
+  user-select: none; 
 }
 
 body {
@@ -3359,7 +3359,9 @@ margin-top: 0 !important;
 }
 
 @media only screen and (max-width: 564px) {
-
+.se-ico {
+	display: none;
+}
 	.container,
 	.gallery-item .client-list li {
 		width: 100%;
