@@ -78,6 +78,10 @@ html {
   height: 100%;
   scroll-behavior: smooth;
   background: #000;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 body {
@@ -150,9 +154,15 @@ p {
 .column-5 {
   width: 20%;
 }
-
+.column-8 {
+  width: 12.5%;
+}
 .column-10 {
   width: 10%;
+}
+
+.column-12 {
+  width: 8.33%;
 }
 
 .column-25 {

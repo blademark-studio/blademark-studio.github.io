@@ -314,6 +314,7 @@ $(document).ready(function () {
     }
 
     var galleryItem = ''
+    var isTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
 
     if ($('.gallery-masonry-item-wrap.gallery-masonry').length > 0) {
         galleryItem = '.gallery-masonry-item-wrap.gallery-masonry'
@@ -322,9 +323,9 @@ $(document).ready(function () {
     }
 
     $(`${galleryItem}`).lightGallery({
-        thumbnail: false
+        thumbnail: false,
+        controls: isTouch ? false : true
     })
-
     //carousel album
 
     var carouselWrap = $('.carousel-block')
@@ -397,3 +398,7 @@ $(document).ready(function () {
         GalleryGridWrap.masonry('bindResize')
     })
 })
+
+lightGallery(document.getElementById('fdd'), {
+    mode: 'lg-fade',
+});
