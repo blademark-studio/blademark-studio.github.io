@@ -151,6 +151,10 @@ p {
   width: 20%;
 }
 
+.column-10 {
+  width: 10%;
+}
+
 .column-25 {
   width: 25%;
 }
@@ -1597,13 +1601,29 @@ h3.adora-title {
 }
 
 .gallery-item {
-  filter: grayscale(0);
   transition: 1000ms;
+  /* filter: opacity(100%);
+  -webkit-filter: opacity(100%); */
 }
 
+.logo-item {
+  transition: 500ms;
+  /* filter: opacity(100%);
+  -webkit-filter: opacity(100%); */
+}
+
+.aop-item {
+  transition: 500ms;
+  /* filter: opacity(100%);
+  -webkit-filter: opacity(100%); */
+}
+.logo2-item {
+  transition: 300ms;
+  /* filter: opacity(100%);
+  -webkit-filter: opacity(100%); */
+}
 .on-hover-item {
-  /* filter: grayscale(100%);
-  -webkit-filter: grayscale(100%); */
+  transition: 400ms;
 }
 
 .standard-grid .gallery-grid-item-wrap {
