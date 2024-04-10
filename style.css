@@ -3356,6 +3356,10 @@ p.made-by-text {
 
 .copyright {
   padding: 5px 19px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 p.copyright-text {
@@ -3364,6 +3368,21 @@ p.copyright-text {
   font-weight: 700;
   /* text-transform: uppercase; */
   color: #000;
+  margin-right: 15px;
+}
+
+p.dribbble-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  background: transparent;
+  border-left: 1px solid #00000021;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: #3d3d3d;
 }
 
 /* Margins */

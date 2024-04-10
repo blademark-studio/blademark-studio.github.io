@@ -853,6 +853,7 @@
   .copyright {
     text-align: center;
     padding: 5px 19px 5px;
+    padding: 0;
   }
 
   .swipper-inner-wrap {
